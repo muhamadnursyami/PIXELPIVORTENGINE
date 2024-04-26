@@ -1,27 +1,59 @@
 package jade;
-import java.awt.event.KeyEvent;
+
+import components.SpriteRenderer;
+import org.joml.Vector2f;
+
+import org.joml.Vector4f;
+import util.AssetPool;
+
+import static org.lwjgl.glfw.GLFW.*;
 public class LevelEditorScene extends Scene {
-    private  boolean changingScene = false;
-    private  float timeToChangeScene = 2.0f;
     public  LevelEditorScene(){
-        System.out.println("Didalam level editor scene");
 
     }
+
+
+    @Override
+    public void init(){
+
+        this.camera = new Camera(new Vector2f(-250, 0));
+
+        //        Menginisialisasi sebuah object Game
+        GameObject obj1 = new GameObject("Object 1", new Transform(new Vector2f(100, 100), new Vector2f(256, 256)));
+        obj1.addComponent(new SpriteRenderer(AssetPool.getTexture("assets/images/testImage.png")));
+        this.addGameObjectToScene(obj1);
+
+        GameObject obj2 = new GameObject("Object 2", new Transform(new Vector2f(400, 100), new Vector2f(256, 256)));
+        obj2.addComponent(new SpriteRenderer(AssetPool.getTexture("assets/images/testImage2.png")));
+        this.addGameObjectToScene(obj2);
+        loadResources();
+    }
+
+    private void loadResources() {
+        AssetPool.getShader("assets/shaders/default.glsl");
+    }
+
+
 
     @Override
     public void update(float dt) {
-        //        System.out.println("" + (1.0f /dt) + "FPS");
-        if(!changingScene && KeyListener.isKeyPressed(KeyEvent.VK_SPACE)){
-            changingScene = true;
+
+        if (KeyListener.isKeyPressed(GLFW_KEY_RIGHT)) {
+            camera.position.x += 100f * dt;
+        } else if (KeyListener.isKeyPressed(GLFW_KEY_LEFT)) {
+            camera.position.x -= 100f * dt;
+        }
+        if (KeyListener.isKeyPressed(GLFW_KEY_UP)) {
+            camera.position.y += 100f * dt;
+        } else if (KeyListener.isKeyPressed(GLFW_KEY_DOWN)) {
+            camera.position.y -= 100f * dt;
         }
 
-        if (changingScene && timeToChangeScene > 0){
-            timeToChangeScene -= dt;
-            Window.get().r -= dt * 5.0f;
-            Window.get().g -= dt * 5.0f;
-            Window.get().b -= dt * 5.0f;
-        } else if (changingScene) {
-            Window.changeScene(1);
+        for (GameObject go : this.gameObjects) {
+            go.update(dt);
         }
+        this.renderer.render();
     }
+
+
 }
