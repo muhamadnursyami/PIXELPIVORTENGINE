@@ -120,7 +120,7 @@ public class Window {
             glClearColor(r, g, b, a);
             glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
             if (dt >= 0){
-                System.out.println(dt);
+                // System.out.println(dt);
                 currentScene.update(dt);
             }
             glfwSwapBuffers(glfwWindow);

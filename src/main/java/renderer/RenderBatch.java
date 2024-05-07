@@ -81,6 +81,7 @@ public class RenderBatch {
 
     public void addSprite(SpriteRenderer spr) {
 
+        // ambil indexnya dan tambah ke renderObject
         int index = this.numSprites;
         this.sprites[index] = spr;
         this.numSprites++;
@@ -207,4 +208,14 @@ public class RenderBatch {
     public boolean hasRoom() {
         return this.hasRoom;
     }
+
+    // cari tau apakah ada tempat untuk tekstur
+    public boolean hasTextureRoom() {
+        return this.textures.size() < 8;
+    }
+
+    public boolean hasTexture(Texture tex){
+        return this.textures.contains(tex);
+    }
+
 }
