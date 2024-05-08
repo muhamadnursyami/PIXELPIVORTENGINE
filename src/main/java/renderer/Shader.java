@@ -29,13 +29,22 @@ public class Shader {
             String[] splitString = source.split("(#type)( )+([a-zA-Z]+)");
 
 
+            // Find the first pattern after #type 'pattern'
             int index = source.indexOf("#type") + 6;
+            // for windows
             int eol = source.indexOf("\r\n", index);
+            // for unix operating system
+            // int eol = source.indexOf("\n", index);
+
             String firstPattern = source.substring(index, eol).trim();
 
-
+            // Find the second pattern after #type 'pattern'
             index = source.indexOf("#type", eol) + 6;
+
+            // for windows
             eol = source.indexOf("\r\n", index);
+            // for unix operating system
+            // eol = source.indexOf("\n", index);
             String secondPattern = source.substring(index, eol).trim();
 
             if (firstPattern.equals("vertex")) {

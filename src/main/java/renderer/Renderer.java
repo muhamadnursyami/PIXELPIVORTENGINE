@@ -25,9 +25,13 @@ public class Renderer {
         boolean added = false;
         for (RenderBatch batch : batches) {
             if (batch.hasRoom()) {
-                batch.addSprite(sprite);
-                added = true;
-                break;
+                Texture tex = sprite.getTexture();
+                // jika spritenya ada tekstur dan batch juga ada teksture, maka tambahkan
+                if (tex == null || (batch.hasTexture(tex) || batch.hasTextureRoom())){
+                    batch.addSprite(sprite);
+                    added = true;
+                    break;
+                }
             }
         }
 
