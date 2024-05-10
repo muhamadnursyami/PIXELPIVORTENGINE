@@ -14,7 +14,7 @@ import static org.lwjgl.opengl.GL30.glGenVertexArrays;
 import java.util.ArrayList;
 import java.util.List;
 
-public class RenderBatch {
+public class RenderBatch implements Comparable<RenderBatch> {
 
     private final int POS_SIZE = 2;
     private final int COLOR_SIZE = 4;
@@ -32,12 +32,15 @@ public class RenderBatch {
     private boolean hasRoom;
     private float[] vertices;
     private int[] texSlots = {0, 1, 2, 3, 4, 5, 6, 7};
+
     private List<Texture> textures;
     private int vaoID, vboID;
     private int maxBatchSize;
     private Shader shader;
+    private int zIndex;
 
-    public RenderBatch(int maxBatchSize) {
+    public RenderBatch(int maxBatchSize, int zIndex)  {
+        this.zIndex = zIndex;
         shader = AssetPool.getShader("assets/shaders/default.glsl");
         this.sprites = new SpriteRenderer[maxBatchSize];
         this.maxBatchSize = maxBatchSize;
@@ -232,4 +235,12 @@ public class RenderBatch {
         return this.textures.contains(tex);
     }
 
+    public int zIndex(){
+        return this.zIndex;
+    }
+
+    @Override
+    public int compareTo(RenderBatch o) {
+        return Integer.compare(this.zIndex, o.zIndex());
+    }
 }

@@ -9,6 +9,7 @@ sourceCompatibility = '21'
 // sourceCompatibility = '18'
 
 repositories {
+     jcenter()
     mavenCentral()
 }
 
@@ -24,10 +25,14 @@ project.ext.lwjglVersion = "3.3.3"
 project.ext.jomlVersion = "1.10.5"
  project.ext.lwjglNatives = "natives-windows"
 //project.ext.lwjglNatives = "natives-linux"
-
+project.ext.imguiVersion = '1.76-0.9'
 
 
 dependencies {
+    // imgui files
+    implementation fileTree('libs') { include '*.jar' }
+
+    // LWJGL
     implementation platform("org.lwjgl:lwjgl-bom:$lwjglVersion")
 
     implementation "org.lwjgl:lwjgl"
