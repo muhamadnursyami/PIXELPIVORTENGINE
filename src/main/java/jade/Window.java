@@ -17,13 +17,15 @@ public class Window {
     private boolean fadeToBlack = false;
     private  static Window window = null;
     private static Scene currentScene;
+    private ImGuiLayer imGuiLayer;
+
     private Window(){
         this.width = 1920;
         this.height= 1080;
         this.title ="PixelPivort";
-        r = 0.7f;
-        b = 0.2f;
-        g = 0.1f;
+        r = 1;
+        b = 1;
+        g = 1;
         a = 1;
     }
     public static  void changeScene (int newScene){
@@ -93,6 +95,10 @@ public class Window {
         glfwSetMouseButtonCallback(glfwWindow, MouseListener::mouseButtonCallback);
         glfwSetScrollCallback(glfwWindow, MouseListener::mouseScrollCallback);
         glfwSetKeyCallback(glfwWindow, KeyListener::keyCallback);
+        glfwSetWindowSizeCallback(glfwWindow, (w, newWidth, newHeight) -> {
+            Window.setWidth(newWidth);
+            Window.setHeight(newHeight);
+        });
 
 
 //        Membuat  sebuah OpenGl Context Current
@@ -108,12 +114,20 @@ public class Window {
 // membuat instance GLCapabilities dan membuat OpenGL
 // binding tersedia untuk digunakan.
         GL.createCapabilities();
+
+        glEnable(GL_BLEND);
+        glBlendFunc(GL_ONE, GL_ONE_MINUS_SRC_ALPHA);
+        this.imGuiLayer = new ImGuiLayer(glfwWindow);
+        this.imGuiLayer.initImGui();
+
         Window.changeScene(0);
     }
     public void loop (){
         float beginTime = (float)glfwGetTime();
         float endTime ;
         float dt = -1.0f;
+
+        currentScene.load();
         while (!glfwWindowShouldClose(glfwWindow)){
             glfwPollEvents();;
 
@@ -123,12 +137,33 @@ public class Window {
                 // System.out.println(dt);
                 currentScene.update(dt);
             }
+
+            this.imGuiLayer.update(dt, currentScene);
+
             glfwSwapBuffers(glfwWindow);
 
             endTime = (float)glfwGetTime();
             dt = endTime - beginTime;
             beginTime = endTime;
         }
+
+        currentScene.saveExit();
+    }
+
+    public static int getWidth(){
+        return get().width;
+    }
+
+    public static int getHeight(){
+        return get().height;
+    }
+
+    public static void setWidth(int newWidth){
+        get().width = newWidth;
+    }
+
+    public static void setHeight(int newHeight){
+        get().height = newHeight;
     }
 
 }
