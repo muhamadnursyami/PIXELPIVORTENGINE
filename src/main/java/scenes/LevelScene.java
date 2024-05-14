@@ -1,5 +1,7 @@
-package jade;
+package scenes;
 
+import jade.Window;
+import scenes.Scene;
 public class LevelScene extends Scene{
     public LevelScene(){
         System.out.println("Didalam level  scene");
