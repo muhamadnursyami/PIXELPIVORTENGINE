@@ -11,7 +11,7 @@ import static org.lwjgl.glfw.Callbacks.glfwFreeCallbacks;
 import static org.lwjgl.glfw.GLFW.*;
 import static org.lwjgl.opengl.GL11C.*;
 import static org.lwjgl.system.MemoryUtil.NULL;
-
+import renderer.DebugDraw;
 public class Window {
     //    Penjelasan lengkap ada di  : https://www.lwjgl.org/guide
     private int width, height;
@@ -135,10 +135,11 @@ public class Window {
 
         while (!glfwWindowShouldClose(glfwWindow)){
             glfwPollEvents();;
-
+            DebugDraw.beginFrame();
             glClearColor(r, g, b, a);
             glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
             if (dt >= 0){
+                DebugDraw.draw();
                 // System.out.println(dt);
                 currentScene.update(dt);
             }
