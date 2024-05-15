@@ -6,7 +6,7 @@ import org.lwjgl.opengl.GL;
 import scenes.LevelEditorScene;
 import scenes.LevelScene;
 import scenes.Scene;
-
+import renderer.Framebuffer;
 import static org.lwjgl.glfw.Callbacks.glfwFreeCallbacks;
 import static org.lwjgl.glfw.GLFW.*;
 import static org.lwjgl.opengl.GL11C.*;
@@ -17,6 +17,7 @@ public class Window {
     private int width, height;
     private  String title;
     private long glfwWindow;
+    private Framebuffer framebuffer;
     public float r, g, b, a;
     private boolean fadeToBlack = false;
     private  static Window window = null;
@@ -124,7 +125,7 @@ public class Window {
         glBlendFunc(GL_ONE, GL_ONE_MINUS_SRC_ALPHA);
         this.imGuiLayer = new ImGuiLayer(glfwWindow);
         this.imGuiLayer.initImGui();
-
+        this.framebuffer = new Framebuffer(3840, 2160);
         Window.changeScene(0);
     }
     public void loop (){
@@ -137,13 +138,15 @@ public class Window {
             glfwPollEvents();;
             DebugDraw.beginFrame();
             glClearColor(r, g, b, a);
-            glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+            glClear(GL_COLOR_BUFFER_BIT);
+
+            //        this.framebuffer.bind();
             if (dt >= 0){
                 DebugDraw.draw();
-                // System.out.println(dt);
+
                 currentScene.update(dt);
             }
-
+            this.framebuffer.unbind();
             this.imGuiLayer.update(dt, currentScene);
 
             glfwSwapBuffers(glfwWindow);

@@ -7,9 +7,9 @@
         "type": "components.SpriteRenderer",
         "properties": {
           "color": {
-            "x": 1.0E-6,
-            "y": 8.875E-7,
-            "z": 8.875E-7,
+            "x": 0.56875,
+            "y": 0.3092578,
+            "z": 0.3092578,
             "w": 1.0
           },
           "sprite": {
@@ -17,7 +17,6 @@
             "height": 16.0,
             "texture": {
               "filepath": "assets/images/spritesheets/tileset1.png",
-              "texID": 2,
               "width": 96,
               "height": 144
             },
@@ -74,7 +73,6 @@
             "height": 16.0,
             "texture": {
               "filepath": "assets/images/spritesheets/tileset1.png",
-              "texID": 2,
               "width": 96,
               "height": 144
             },
@@ -131,7 +129,6 @@
             "height": 16.0,
             "texture": {
               "filepath": "assets/images/spritesheets/tileset1.png",
-              "texID": 2,
               "width": 96,
               "height": 144
             },
@@ -161,6 +158,62 @@
     "transform": {
       "position": {
         "x": 256.0,
+        "y": 256.0
+      },
+      "scale": {
+        "x": 32.0,
+        "y": 32.0
+      }
+    },
+    "zIndex": 0
+  },
+  {
+    "uid": 4,
+    "name": "Sprite_Object_Gen",
+    "components": [
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "width": 16.0,
+            "height": 16.0,
+            "texture": {
+              "filepath": "assets/images/spritesheets/tileset1.png",
+              "width": 96,
+              "height": 144
+            },
+            "texCoords": [
+              {
+                "x": 0.33333334,
+                "y": 0.6666667
+              },
+              {
+                "x": 0.33333334,
+                "y": 0.5555556
+              },
+              {
+                "x": 0.16666667,
+                "y": 0.5555556
+              },
+              {
+                "x": 0.16666667,
+                "y": 0.6666667
+              }
+            ]
+          },
+          "uid": 7
+        }
+      }
+    ],
+    "transform": {
+      "position": {
+        "x": 384.0,
         "y": 256.0
       },
       "scale": {

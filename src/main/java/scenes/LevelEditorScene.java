@@ -4,18 +4,14 @@ import components.Sprite;
 import components.SpriteRenderer;
 import components.Spritesheet;
 import imgui.ImGui;
-import components.Rigidbody;
 import imgui.ImVec2;
 import jade.Camera;
 import jade.GameObject;
 import jade.Transform;
 import org.joml.Vector2f;
-import org.joml.Vector4f;
 import util.AssetPool;
-import scenes.Scene;
-import renderer.DebugDraw;
 import jade.Prefabs;
-import org.joml.Vector3f;
+
 public class LevelEditorScene extends Scene {
 
     private GameObject obj1;
@@ -35,7 +31,9 @@ public class LevelEditorScene extends Scene {
         this.camera = new Camera(new Vector2f(-250, 0));
         sprites = AssetPool.getSpriteSheet("assets/images/spritesheets/tileset1.png");
         if (levelLoaded){
-            this.activeGameObject = gameObjects.get(0);
+            if (gameObjects.size() > 0) {
+                this.activeGameObject = gameObjects.get(0);
+            }
             return;
         }
 
@@ -71,6 +69,16 @@ public class LevelEditorScene extends Scene {
                         16, 16, 81, 0));
 
         AssetPool.getTexture("assets/images/blendImage2.png");
+        for (GameObject g : gameObjects) {
+            if (g.getComponent(SpriteRenderer.class) != null) {
+                SpriteRenderer spr = g.getComponent(SpriteRenderer.class);
+                if (spr.getTexture() != null) {
+                    spr.setTexture(AssetPool.getTexture(spr.getTexture().getFilepath()));
+                }
+            }
+        }
+
+
     }
 
 
