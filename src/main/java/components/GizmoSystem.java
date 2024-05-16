@@ -32,9 +32,13 @@ public class GizmoSystem extends Component {
             gameObject.getComponent(ScaleGizmo.class).setUsing();
         }
 
+//        UNTUK MODE GESER KANAN KIRI ATAU BAWAH/ TRANSLATE PRESS E
         if (KeyListener.isKeyPressed(GLFW_KEY_E)) {
             usingGizmo = 0;
-        } else if (KeyListener.isKeyPressed(GLFW_KEY_R)) {
+
+        }
+        //        UNTUK MODE BESAR KECIL /SCALE  PRESS R
+        else if (KeyListener.isKeyPressed(GLFW_KEY_R)) {
             usingGizmo = 1;
         }
     }
