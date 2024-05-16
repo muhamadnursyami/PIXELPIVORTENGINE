@@ -6,39 +6,48 @@ import org.lwjgl.opengl.GL;
 import scenes.LevelEditorScene;
 import scenes.LevelScene;
 import scenes.Scene;
-
 import static org.lwjgl.glfw.Callbacks.glfwFreeCallbacks;
 import static org.lwjgl.glfw.GLFW.*;
 import static org.lwjgl.opengl.GL11C.*;
 import static org.lwjgl.system.MemoryUtil.NULL;
-import renderer.DebugDraw;
+import renderer.*;
+import util.AssetPool;
 public class Window {
     //    Penjelasan lengkap ada di  : https://www.lwjgl.org/guide
     private int width, height;
     private  String title;
     private long glfwWindow;
+    private ImGuiLayer imguiLayer;
+    private Framebuffer framebuffer;
+
+    private PickingTexture pickingTexture;
     public float r, g, b, a;
     private boolean fadeToBlack = false;
+
     private  static Window window = null;
+
     private static Scene currentScene;
-    private ImGuiLayer imGuiLayer;
 
     private Window(){
         this.width = 1920;
         this.height= 1080;
-        this.title ="PixelPivort";
+        this.title ="GameEngine";
         r = 1;
         b = 1;
         g = 1;
         a = 1;
     }
+
+
     public static  void changeScene (int newScene){
         switch (newScene){
             case 0:
                 currentScene = new LevelEditorScene();
+
                 break;
             case 1:
                 currentScene = new LevelScene();
+
                 break;
             default:
                 assert false : "Unknown scene '" + newScene + "'";
@@ -49,12 +58,14 @@ public class Window {
         currentScene.init();
         currentScene.start();
     }
+
     public static  Window get(){
         if(Window.window == null){
             Window.window = new Window();
         }
         return  Window.window;
     }
+
     public static Scene getScene() {
         return get().currentScene;
     }
@@ -63,6 +74,7 @@ public class Window {
 
         init();
         loop();
+
         // Free the memory
         glfwFreeCallbacks(glfwWindow);
         glfwDestroyWindow(glfwWindow);
@@ -70,6 +82,7 @@ public class Window {
         // Terminate GLFW and the free the error callback
         glfwTerminate();
         glfwSetErrorCallback(null).free();
+
     }
     public void init(){
 //        Mengsetup error pada layar window dan memberi pesan kesalahan
@@ -94,7 +107,6 @@ public class Window {
             throw new IllegalStateException("Gagal untuk membuat  sebuah window GLFW");
         }
 
-
         glfwSetCursorPosCallback(glfwWindow, MouseListener::mousePosCallback);
         glfwSetMouseButtonCallback(glfwWindow, MouseListener::mouseButtonCallback);
         glfwSetScrollCallback(glfwWindow, MouseListener::mouseScrollCallback);
@@ -104,7 +116,6 @@ public class Window {
             Window.setWidth(newWidth);
             Window.setHeight(newHeight);
         });
-
 
 //        Membuat  sebuah OpenGl Context Current
         glfwMakeContextCurrent(glfwWindow);
@@ -120,56 +131,104 @@ public class Window {
 // binding tersedia untuk digunakan.
         GL.createCapabilities();
 
+//        Mengaktifkan BLEND
         glEnable(GL_BLEND);
+//        Menghapus background hitam pada objek, dengan mengaktifkan alpha
         glBlendFunc(GL_ONE, GL_ONE_MINUS_SRC_ALPHA);
-        this.imGuiLayer = new ImGuiLayer(glfwWindow);
-        this.imGuiLayer.initImGui();
+
+
+
+
+        this.framebuffer = new Framebuffer(3840, 2160);
+
+        this.pickingTexture = new PickingTexture(3840, 2160);
+        glViewport(0, 0, 3840, 2160);
+
+        this.imguiLayer = new ImGuiLayer(glfwWindow, pickingTexture);
+        this.imguiLayer.initImGui();
 
         Window.changeScene(0);
     }
     public void loop (){
+
         float beginTime = (float)glfwGetTime();
         float endTime ;
         float dt = -1.0f;
 
+        Shader defaultShader = AssetPool.getShader("assets/shaders/default.glsl");
+        Shader pickingShader = AssetPool.getShader("assets/shaders/pickingShader.glsl");
 
         while (!glfwWindowShouldClose(glfwWindow)){
             glfwPollEvents();;
-            DebugDraw.beginFrame();
-            glClearColor(r, g, b, a);
+
+// Render pass 1. Render to picking texture
+            glDisable(GL_BLEND);
+            pickingTexture.enableWriting();
+
+            glViewport(0, 0, 3840, 2160);
+            glClearColor(0.0f, 0.0f, 0.0f, 0.0f);
             glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+
+            Renderer.bindShader(pickingShader);
+            currentScene.render();
+
+
+
+            pickingTexture.disableWriting();
+            glEnable(GL_BLEND);
+
+            // Render pass 2. Render actual game
+
+            DebugDraw.beginFrame();
+            this.framebuffer.bind();
+            glClearColor(r, g, b, a);
+            glClear(GL_COLOR_BUFFER_BIT);
+
+//
             if (dt >= 0){
                 DebugDraw.draw();
-                // System.out.println(dt);
+                Renderer.bindShader(defaultShader);
                 currentScene.update(dt);
+                currentScene.render();
             }
 
-            this.imGuiLayer.update(dt, currentScene);
-
+            this.framebuffer.unbind();
+            this.imguiLayer.update(dt,currentScene);
             glfwSwapBuffers(glfwWindow);
-
+            MouseListener.endFrame();
             endTime = (float)glfwGetTime();
             dt = endTime - beginTime;
             beginTime = endTime;
         }
-
         currentScene.saveExit();
     }
 
-    public static int getWidth(){
+    public static int getWidth() {
         return get().width;
     }
 
-    public static int getHeight(){
+    public static int getHeight() {
         return get().height;
     }
 
-    public static void setWidth(int newWidth){
+    public static void setWidth(int newWidth) {
         get().width = newWidth;
     }
 
-    public static void setHeight(int newHeight){
+    public static void setHeight(int newHeight) {
         get().height = newHeight;
     }
 
+
+    public static Framebuffer getFramebuffer() {
+        return get().framebuffer;
+    }
+
+    public static float getTargetAspectRatio() {
+        return 16.0f / 9.0f;
+    }
+
+    public static ImGuiLayer getImguiLayer() {
+        return get().imguiLayer;
+    }
 }

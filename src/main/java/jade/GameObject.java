@@ -14,7 +14,7 @@ public class GameObject {
     // for z-index
     private int zIndex;
 
-
+    private boolean doSerialization = true;
     public GameObject(String name, Transform transform, int zIndex) {
         this.name = name;
         this.zIndex = zIndex;
@@ -86,5 +86,11 @@ public class GameObject {
     public List<Component> getAllComponents() {
         return this.components;
     }
+    public void setNoSerialize() {
+        this.doSerialization = false;
+    }
 
+    public boolean doSerialization() {
+        return this.doSerialization;
+    }
 }
