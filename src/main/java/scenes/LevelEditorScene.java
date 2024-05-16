@@ -38,8 +38,7 @@ public class LevelEditorScene extends Scene {
         levelEditorStuff.addComponent(new GridLines());
         levelEditorStuff.addComponent(new EditorCamera(this.camera));
 
-        levelEditorStuff.addComponent(new TranslateGizmo(gizmos.getSprite(1),
-                Window.getImguiLayer().getPropertiesWindow()));
+        levelEditorStuff.addComponent(new GizmoSystem(gizmos));
 
         levelEditorStuff.start();
         //        obj1 = new Transform(new Vector2f(100, 500));
@@ -75,7 +74,7 @@ public class LevelEditorScene extends Scene {
 
         AssetPool.addSpritesheet("assets/images/gizmos.png",
                 new Spritesheet(AssetPool.getTexture("assets/images/gizmos.png"),
-                        24, 48, 2, 0));
+                        24, 48, 3, 0));
 
         AssetPool.getTexture("assets/images/blendImage2.png");
         for (GameObject g : gameObjects) {
