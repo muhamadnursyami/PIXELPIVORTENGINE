@@ -11,6 +11,7 @@ import scenes.Scene;
 
 import static org.lwjgl.glfw.GLFW.*;
 import imgui.type.ImBoolean;
+import java.util.PropertyResourceBundle;
 public class ImGuiLayer {
 
     private long glfwWindow;
@@ -251,5 +252,9 @@ public class ImGuiLayer {
 
         // Dockspace
         ImGui.dockSpace(ImGui.getID("Dockspace"));
+    }
+
+    public PropertiesWindow getPropertiesWindow() {
+        return this.propertiesWindow;
     }
 }

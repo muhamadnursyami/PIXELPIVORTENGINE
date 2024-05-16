@@ -51,9 +51,11 @@
       "scale": {
         "x": 32.0,
         "y": 32.0
-      }
+      },
+      "rotation": 0.0
     },
-    "zIndex": 0
+    "zIndex": 0,
+    "doSerialization": true
   },
   {
     "uid": 2,
@@ -107,9 +109,11 @@
       "scale": {
         "x": 32.0,
         "y": 32.0
-      }
+      },
+      "rotation": 0.0
     },
-    "zIndex": 0
+    "zIndex": 0,
+    "doSerialization": true
   },
   {
     "uid": 3,
@@ -163,9 +167,11 @@
       "scale": {
         "x": 32.0,
         "y": 32.0
-      }
+      },
+      "rotation": 0.0
     },
-    "zIndex": 0
+    "zIndex": 0,
+    "doSerialization": true
   },
   {
     "uid": 4,
@@ -219,9 +225,11 @@
       "scale": {
         "x": 32.0,
         "y": 32.0
-      }
+      },
+      "rotation": 0.0
     },
-    "zIndex": 0
+    "zIndex": 0,
+    "doSerialization": true
   },
   {
     "uid": 5,
@@ -275,9 +283,11 @@
       "scale": {
         "x": 32.0,
         "y": 32.0
-      }
+      },
+      "rotation": 0.0
     },
-    "zIndex": 0
+    "zIndex": 0,
+    "doSerialization": true
   },
   {
     "uid": 6,
@@ -331,9 +341,11 @@
       "scale": {
         "x": 32.0,
         "y": 32.0
-      }
+      },
+      "rotation": 0.0
     },
-    "zIndex": 0
+    "zIndex": 0,
+    "doSerialization": true
   },
   {
     "uid": 7,
@@ -387,9 +399,11 @@
       "scale": {
         "x": 32.0,
         "y": 32.0
-      }
+      },
+      "rotation": 0.0
     },
-    "zIndex": 0
+    "zIndex": 0,
+    "doSerialization": true
   },
   {
     "uid": 8,
@@ -443,9 +457,11 @@
       "scale": {
         "x": 32.0,
         "y": 32.0
-      }
+      },
+      "rotation": 0.0
     },
-    "zIndex": 0
+    "zIndex": 0,
+    "doSerialization": true
   },
   {
     "uid": 9,
@@ -499,9 +515,11 @@
       "scale": {
         "x": 32.0,
         "y": 32.0
-      }
+      },
+      "rotation": 0.0
     },
-    "zIndex": 0
+    "zIndex": 0,
+    "doSerialization": true
   },
   {
     "uid": 10,
@@ -555,9 +573,11 @@
       "scale": {
         "x": 32.0,
         "y": 32.0
-      }
+      },
+      "rotation": 0.0
     },
-    "zIndex": 0
+    "zIndex": 0,
+    "doSerialization": true
   },
   {
     "uid": 11,
@@ -611,9 +631,11 @@
       "scale": {
         "x": 32.0,
         "y": 32.0
-      }
+      },
+      "rotation": 0.0
     },
-    "zIndex": 0
+    "zIndex": 0,
+    "doSerialization": true
   },
   {
     "uid": 12,
@@ -667,9 +689,11 @@
       "scale": {
         "x": 32.0,
         "y": 32.0
-      }
+      },
+      "rotation": 0.0
     },
-    "zIndex": 0
+    "zIndex": 0,
+    "doSerialization": true
   },
   {
     "uid": 13,
@@ -723,9 +747,11 @@
       "scale": {
         "x": 32.0,
         "y": 32.0
-      }
+      },
+      "rotation": 0.0
     },
-    "zIndex": 0
+    "zIndex": 0,
+    "doSerialization": true
   },
   {
     "uid": 14,
@@ -779,8 +805,10 @@
       "scale": {
         "x": 32.0,
         "y": 32.0
-      }
+      },
+      "rotation": 0.0
     },
-    "zIndex": 0
+    "zIndex": 0,
+    "doSerialization": true
   }
 ]
