@@ -39,4 +39,7 @@ public class CollisionManifold {
     public float getDepth() {
         return depth;
     }
+    public boolean isColliding() {
+        return this.isColliding;
+    }
 }
