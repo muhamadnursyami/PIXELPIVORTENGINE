@@ -49,12 +49,7 @@ public class LevelEditorScene extends Scene {
         loadResources();
         this.camera = new Camera(new Vector2f(-250, 0));
         sprites = AssetPool.getSpriteSheet("assets/images/spritesheets/tileset1.png");
-        if (levelLoaded){
-            if (gameObjects.size() > 0) {
-                this.activeGameObject = gameObjects.get(0);
-            }
-            return;
-        }
+
 
     }
 
