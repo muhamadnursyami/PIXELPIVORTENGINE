@@ -29,7 +29,7 @@ project.ext.lwjglVersion = "3.3.3"
 project.ext.jomlVersion = "1.10.5"
 project.ext.lwjglNatives = "natives-windows"
 //project.ext.lwjglNatives = "natives-linux"
-project.ext.imguiVersion = '1.77-0.17.1'
+project.ext.imguiVersion = '1.81.0'
 
 
 dependencies {
@@ -39,7 +39,9 @@ dependencies {
     // JUnit
     testImplementation('junit:junit:4.13')
     // imgui files
-    implementation fileTree('libs') { include '*.jar' }
+
+    implementation "io.github.spair:imgui-java-app:$imguiVersion"
+//    implementation fileTree('libs') { include '*.jar' }
 
     // GSON
     implementation 'com.google.code.gson:gson:2.10.1'

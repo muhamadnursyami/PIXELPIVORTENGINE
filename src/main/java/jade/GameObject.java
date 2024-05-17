@@ -2,18 +2,22 @@ package jade;
 
 import components.Component;
 import imgui.ImGui;
-
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
 import java.util.ArrayList;
 import java.util.List;
-
+import components.ComponentDeserializer;
+import components.SpriteRenderer;
+import util.AssetPool;
 public class GameObject {
     private static int ID_COUNTER = 0;
     private int uid = -1;
 
-    private String name;
+    public String name;
     private List<Component> components;
     public transient Transform transform;
     private boolean doSerialization = true;
+    private boolean isDead = false;
 
     public GameObject(String name) {
         this.name = name;
@@ -58,7 +62,11 @@ public class GameObject {
             components.get(i).update(dt);
         }
     }
-
+    public void editorUpdate(float dt) {
+        for (int i=0; i < components.size(); i++) {
+            components.get(i).editorUpdate(dt);
+        }
+    }
     public void start() {
         for (int i=0; i < components.size(); i++) {
             components.get(i).start();
@@ -71,6 +79,37 @@ public class GameObject {
                 c.imgui();
         }
     }
+    public void destroy() {
+        this.isDead = true;
+        for (int i=0; i < components.size(); i++) {
+            components.get(i).destroy();
+        }
+    }
+
+    public GameObject copy() {
+        Gson gson = new GsonBuilder()
+                .registerTypeAdapter(Component.class, new ComponentDeserializer())
+                .registerTypeAdapter(GameObject.class, new GameObjectDeserializer())
+                .create();
+        String objAsJson = gson.toJson(this);
+        GameObject obj = gson.fromJson(objAsJson, GameObject.class);
+        obj.generateUid();
+        for (Component c : obj.getAllComponents()) {
+            c.generateId();
+        }
+
+        SpriteRenderer sprite = obj.getComponent(SpriteRenderer.class);
+        if (sprite != null && sprite.getTexture() != null) {
+            sprite.setTexture(AssetPool.getTexture(sprite.getTexture().getFilepath()));
+        }
+
+        // TODO: Create better copy function
+        return obj;
+    }
+    public boolean isDead() {
+        return this.isDead;
+    }
+
 
     public static void init(int maxId) {
         ID_COUNTER = maxId;
@@ -84,11 +123,19 @@ public class GameObject {
         return this.components;
     }
 
+
+
+
+
     public void setNoSerialize() {
         this.doSerialization = false;
     }
 
     public boolean doSerialization() {
         return this.doSerialization;
+    }
+
+    public void generateUid() {
+        this.uid = ID_COUNTER++;
     }
 }

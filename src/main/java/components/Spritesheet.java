@@ -11,16 +11,15 @@ public class Spritesheet {
     private Texture texture;
     private List<Sprite> sprites;
 
-    public Spritesheet(Texture texture, int spriteWidth, int spriteHeight, int numSprites, int spacing){
+    public Spritesheet(Texture texture, int spriteWidth, int spriteHeight, int numSprites, int spacing) {
         this.sprites = new ArrayList<>();
 
         this.texture = texture;
-        // starting at 0
         int currentX = 0;
         int currentY = texture.getHeight() - spriteHeight;
-        for (int i = 0; i < numSprites; i++){
-            float topY = (currentY + spriteHeight) / (float) texture.getHeight();
-            float rightX = (currentX + spriteWidth) / (float) texture.getWidth();
+        for (int i=0; i < numSprites; i++) {
+            float topY = (currentY + spriteHeight) / (float)texture.getHeight();
+            float rightX = (currentX + spriteWidth) / (float)texture.getWidth();
             float leftX = currentX / (float)texture.getWidth();
             float bottomY = currentY / (float)texture.getHeight();
 
@@ -38,16 +37,17 @@ public class Spritesheet {
             this.sprites.add(sprite);
 
             currentX += spriteWidth + spacing;
-            if (currentX >= texture.getWidth()){
+            if (currentX >= texture.getWidth()) {
                 currentX = 0;
                 currentY -= spriteHeight + spacing;
             }
         }
     }
 
-    public Sprite getSprite(int index){
+    public Sprite getSprite(int index) {
         return this.sprites.get(index);
     }
+    public List<Sprite> getSprites() { return this.sprites; }
     public int size() {
         return sprites.size();
     }
