@@ -9,11 +9,11 @@ import util.Settings;
 public class GridLines extends Component {
 
     @Override
-    public void update(float dt) {
-
+    public void editorUpdate(float dt) {
         Camera camera = Window.getScene().camera();
         Vector2f cameraPos = camera.position;
         Vector2f projectionSize = camera.getProjectionSize();
+
         int firstX = ((int)(cameraPos.x / Settings.GRID_WIDTH) - 1) * Settings.GRID_HEIGHT;
         int firstY = ((int)(cameraPos.y / Settings.GRID_HEIGHT) - 1) * Settings.GRID_HEIGHT;
 

@@ -1,14 +1,14 @@
 package jade;
 import editor.GameViewWindow;
 import editor.PropertiesWindow;
+import editor.MenuBar;
 import imgui.*;
+import imgui.gl3.ImGuiImplGl3;
+import scenes.Scene;
 import imgui.callback.ImStrConsumer;
 import imgui.callback.ImStrSupplier;
 import imgui.flag.*;
-import imgui.gl3.ImGuiImplGl3;
 import renderer.PickingTexture;
-import scenes.Scene;
-
 import static org.lwjgl.glfw.GLFW.*;
 import imgui.type.ImBoolean;
 import java.util.PropertyResourceBundle;
@@ -22,13 +22,15 @@ public class ImGuiLayer {
     // LWJGL3 renderer (SHOULD be initialized)
     private final ImGuiImplGl3 imGuiGl3 = new ImGuiImplGl3();
 
-
     private GameViewWindow gameViewWindow;
     private PropertiesWindow propertiesWindow;
+    private MenuBar menuBar;
+
     public ImGuiLayer(long glfwWindow, PickingTexture pickingTexture) {
         this.glfwWindow = glfwWindow;
         this.gameViewWindow = new GameViewWindow();
         this.propertiesWindow = new PropertiesWindow(pickingTexture);
+        this.menuBar = new MenuBar();
     }
 
     // Initialize Dear ImGui.
@@ -41,6 +43,7 @@ public class ImGuiLayer {
         // Initialize ImGuiIO config
         final ImGuiIO io = ImGui.getIO();
 
+//        Untuk mensave posisi panel gui , sebelumnya yang telah di ubah posisinya.
         io.setIniFilename("imgui.ini"); // We don't want to save .ini file
         io.setConfigFlags(ImGuiConfigFlags.NavEnableKeyboard); // Navigation with keyboard
         io.setConfigFlags(ImGuiConfigFlags.DockingEnable);
@@ -104,8 +107,6 @@ public class ImGuiLayer {
             if (!io.getWantCaptureKeyboard()) {
                 KeyListener.keyCallback(w, key, scancode, action, mods);
             }
-
-
         });
 
         glfwSetCharCallback(glfwWindow, (w, c) -> {
@@ -186,7 +187,6 @@ public class ImGuiLayer {
         imGuiGl3.init("#version 330 core");
     }
 
-
     public void update(float dt, Scene currentScene) {
         startFrame(dt);
 
@@ -198,6 +198,7 @@ public class ImGuiLayer {
         gameViewWindow.imgui();
         propertiesWindow.update(dt, currentScene);
         propertiesWindow.imgui();
+        menuBar.imgui();
         ImGui.end();
         ImGui.render();
 
@@ -230,12 +231,12 @@ public class ImGuiLayer {
         // At that moment ImGui will be rendered to the current OpenGL context.
         imGuiGl3.renderDrawData(ImGui.getDrawData());
     }
-
     // If you want to clean a room after yourself - do it by yourself
     private void destroyImGui() {
         imGuiGl3.dispose();
         ImGui.destroyContext();
     }
+
     private void setupDockspace() {
         int windowFlags = ImGuiWindowFlags.MenuBar | ImGuiWindowFlags.NoDocking;
 

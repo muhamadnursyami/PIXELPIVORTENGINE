@@ -23,7 +23,9 @@ public abstract class Component {
     public void update(float dt) {
 
     }
+    public void editorUpdate(float dt) {
 
+    }
     public void imgui() {
         try {
             Field[] fields = this.getClass().getDeclaredFields();
@@ -82,7 +84,9 @@ public abstract class Component {
             this.uid = ID_COUNTER++;
         }
     }
+    public void destroy() {
 
+    }
     public int getUid() {
         return this.uid;
     }
