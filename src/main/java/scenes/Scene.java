@@ -1,10 +1,4 @@
 package scenes;
-import java.io.FileWriter;
-import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Paths;
-import java.util.ArrayList;
-import java.util.List;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
@@ -14,24 +8,33 @@ import imgui.ImGui;
 import jade.Camera;
 import jade.GameObject;
 import jade.GameObjectDeserializer;
-import jade.*;
-import java.util.Optional;
+import jade.Transform;
 import renderer.Renderer;
+
+import java.io.FileWriter;
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Paths;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Optional;
+
 public abstract class Scene {
+
     protected Renderer renderer = new Renderer();
     protected Camera camera;
     private boolean isRunning = false;
     protected List<GameObject> gameObjects = new ArrayList<>();
-
     protected boolean levelLoaded = false;
 
-    public  Scene(){
+    public Scene() {
 
     }
 
-    public void init(){
+    public void init() {
 
     }
+
     public void start() {
         for (GameObject go : gameObjects) {
             go.start();
@@ -57,28 +60,31 @@ public abstract class Scene {
         return result.orElse(null);
     }
 
-
-    public  abstract void  update(float dt);
+    public abstract void update(float dt);
     public abstract void render();
+
     public Camera camera() {
-
         return this.camera;
+    }
+
+    public void imgui() {
 
     }
 
-
-
-    public void imgui(){
-
+    public GameObject createGameObject(String name) {
+        GameObject go = new GameObject(name);
+        go.addComponent(new Transform());
+        go.transform = go.getComponent(Transform.class);
+        return go;
     }
 
-    // save file dan exit
-    public void saveExit(){
+    public void saveExit() {
         Gson gson = new GsonBuilder()
                 .setPrettyPrinting()
                 .registerTypeAdapter(Component.class, new ComponentDeserializer())
                 .registerTypeAdapter(GameObject.class, new GameObjectDeserializer())
                 .create();
+
         try {
             FileWriter writer = new FileWriter("level.txt");
             List<GameObject> objsToSerialize = new ArrayList<>();
@@ -89,12 +95,12 @@ public abstract class Scene {
             }
             writer.write(gson.toJson(objsToSerialize));
             writer.close();
-        }catch (IOException e){
+        } catch(IOException e) {
             e.printStackTrace();
         }
     }
 
-    public void load(){
+    public void load() {
         Gson gson = new GsonBuilder()
                 .setPrettyPrinting()
                 .registerTypeAdapter(Component.class, new ComponentDeserializer())
@@ -104,16 +110,17 @@ public abstract class Scene {
         String inFile = "";
         try {
             inFile = new String(Files.readAllBytes(Paths.get("level.txt")));
-        }catch (IOException e){
+        } catch (IOException e) {
             e.printStackTrace();
         }
-        if (!inFile.equals("")){
 
+        if (!inFile.equals("")) {
             int maxGoId = -1;
             int maxCompId = -1;
             GameObject[] objs = gson.fromJson(inFile, GameObject[].class);
-            for (int i = 0; i < objs.length; i++){
+            for (int i=0; i < objs.length; i++) {
                 addGameObjectToScene(objs[i]);
+
                 for (Component c : objs[i].getAllComponents()) {
                     if (c.getUid() > maxCompId) {
                         maxCompId = c.getUid();
@@ -131,5 +138,4 @@ public abstract class Scene {
             this.levelLoaded = true;
         }
     }
-
 }
