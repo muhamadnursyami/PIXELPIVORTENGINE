@@ -7,7 +7,7 @@ import jade.Window;
 import org.joml.Vector2f;
 import org.joml.Vector4f;
 import renderer.Texture;
-
+import util.AssetPool;
 public class SpriteRenderer extends Component {
 
     private Vector4f color = new Vector4f(1, 1, 1, 1);
@@ -15,9 +15,12 @@ public class SpriteRenderer extends Component {
 
     private transient Transform lastTransform;
     private transient boolean isDirty = true;
-    private transient boolean reAdd = false;
+
     @Override
     public void start() {
+        if (this.sprite.getTexture() != null) {
+            this.sprite.setTexture(AssetPool.getTexture(this.sprite.getTexture().getFilepath()));
+        }
         this.lastTransform = gameObject.transform.copy();
     }
 
@@ -67,13 +70,9 @@ public class SpriteRenderer extends Component {
             this.color.set(color);
         }
     }
-    public void setReAdd() {
-        this.reAdd = true;
-    }
 
-    public boolean reAdd() {
-        return this.reAdd;
-    }
+
+
     public boolean isDirty() {
         return this.isDirty;
     }

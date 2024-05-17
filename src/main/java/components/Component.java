@@ -72,7 +72,7 @@ public abstract class Component {
                     String[] enumValues = getEnumValues(type);
                     String enumType = ((Enum)value).name();
                     ImInt index = new ImInt(indexOf(enumType, enumValues));
-                    if (ImGui.combo("##Enum", index, enumValues, enumValues.length)) {
+                    if (ImGui.combo(field.getName(), index, enumValues, enumValues.length)) {
                         field.set(this, type.getEnumConstants()[index.get()]);
                     }
                 }
@@ -92,16 +92,7 @@ public abstract class Component {
             this.uid = ID_COUNTER++;
         }
     }
-    public void destroy() {
 
-    }
-    public int getUid() {
-        return this.uid;
-    }
-
-    public static void init(int maxId) {
-        ID_COUNTER = maxId;
-    }
     private <T extends Enum<T>> String[] getEnumValues(Class<T> enumType) {
         String[] enumValues = new String[enumType.getEnumConstants().length];
         int i = 0;
@@ -122,4 +113,15 @@ public abstract class Component {
 
         return -1;
     }
+    public void destroy() {
+
+    }
+    public int getUid() {
+        return this.uid;
+    }
+
+    public static void init(int maxId) {
+        ID_COUNTER = maxId;
+    }
+
 }

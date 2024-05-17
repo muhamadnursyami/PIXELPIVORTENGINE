@@ -86,25 +86,6 @@ public class GameObject {
         }
     }
 
-    public boolean isDead() {
-        return this.isDead;
-    }
-
-
-    public static void init(int maxId) {
-        ID_COUNTER = maxId;
-    }
-
-    public int getUid() {
-        return this.uid;
-    }
-
-    public List<Component> getAllComponents() {
-        return this.components;
-    }
-
-
-
     public GameObject copy() {
         Gson gson = new GsonBuilder()
                 .registerTypeAdapter(Component.class, new ComponentDeserializer())
@@ -125,6 +106,26 @@ public class GameObject {
         // TODO: Create better copy function
         return obj;
     }
+    public boolean isDead() {
+        return this.isDead;
+    }
+
+
+    public static void init(int maxId) {
+        ID_COUNTER = maxId;
+    }
+
+    public int getUid() {
+        return this.uid;
+    }
+
+    public List<Component> getAllComponents() {
+        return this.components;
+    }
+
+
+
+
 
     public void setNoSerialize() {
         this.doSerialization = false;

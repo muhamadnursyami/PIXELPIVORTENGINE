@@ -190,7 +190,7 @@ public class Window  implements Observer{
             this.framebuffer.unbind();
             this.imguiLayer.update(dt,currentScene);
             glfwSwapBuffers(glfwWindow);
-            MouseListener.endFrame();
+
             endTime = (float)glfwGetTime();
             dt = endTime - beginTime;
             beginTime = endTime;

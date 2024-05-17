@@ -123,9 +123,8 @@ public class RenderBatch implements Comparable<RenderBatch> {
                 rebufferData = true;
             }
 
-            // TODO: Come up with better solution for changing z-index at runtime
+            // TODO: get better solution for this
             if (spr.gameObject.transform.zIndex != this.zIndex) {
-                spr.setReAdd();
                 destroyIfExists(spr.gameObject);
                 renderer.add(spr.gameObject);
                 i--;
