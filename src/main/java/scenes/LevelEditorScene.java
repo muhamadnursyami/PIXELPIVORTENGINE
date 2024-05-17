@@ -6,18 +6,13 @@ import jade.*;
 import org.joml.Vector2f;
 import util.AssetPool;
 import jade.Prefabs;
-import org.joml.Vector3f;
-import org.joml.Vector4f;
-import physics2d.primitives.Circle;
-import physics2d.PhysicsSystem2D;
-import physics2d.rigidbody.Rigidbody2D;
-import renderer.DebugDraw;
-import scenes.Scene;
+import physics2dtmp.PhysicsSystem2D;
+import physics2dtmp.rigidbody.Rigidbody2D;
 
 public class LevelEditorScene extends Scene {
 
     private Spritesheet sprites;
-    GameObject levelEditorStuff = new GameObject("LevelEditor", new Transform(new Vector2f()), 0);
+    GameObject levelEditorStuff = new GameObject("LevelEditor");
 
     PhysicsSystem2D physics = new PhysicsSystem2D(1.0f / 60.0f, new Vector2f(0, -10));
     Transform obj1, obj2;

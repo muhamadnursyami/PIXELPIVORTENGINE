@@ -1,17 +1,11 @@
-package physics2d;
-import jade.GameObject;
+package physics2dtmp;
 import org.joml.Vector2f;
-import org.joml.Vector2f;
-import org.joml.Vector2f;
-import org.joml.Vector2f;
-import physics2d.primitives.Box2D;
-import physics2d.primitives.Circle;
-import physics2d.primitives.Ray2D;
+import physics2dtmp.primitives.Box2D;
+import physics2dtmp.primitives.Circle;
 import org.junit.Test;
-import physics2d.rigidbody.IntersectionDetector2D;
-import physics2d.rigidbody.Rigidbody2D;
+import physics2dtmp.rigidbody.IntersectionDetector2D;
+import physics2dtmp.rigidbody.Rigidbody2D;
 import renderer.Line2D;
-import util.JMath;
 
 import static org.junit.Assert.assertTrue;
 import static org.junit.Assert.assertFalse;

@@ -9,6 +9,9 @@ sourceCompatibility = '21'
 // sourceCompatibility = '18'
 
 repositories {
+    flatDir {
+        dirs 'libs'
+    }
      jcenter()
     mavenCentral()
 }
@@ -30,6 +33,9 @@ project.ext.imguiVersion = '1.77-0.17.1'
 
 
 dependencies {
+
+    // Box2D
+    implementation name: 'jbox2d-library'
     // JUnit
     testImplementation('junit:junit:4.13')
     // imgui files
