@@ -8,13 +8,12 @@ import util.AssetPool;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-
+import util.JMath;
 import static org.lwjgl.opengl.GL15.*;
 import static org.lwjgl.opengl.GL20.*;
 import static org.lwjgl.opengl.GL30.glBindVertexArray;
 import static org.lwjgl.opengl.GL30.glGenVertexArrays;
 
-import util.JMath;
 public class DebugDraw {
     private static int MAX_LINES = 500;
 
@@ -100,7 +99,7 @@ public class DebugDraw {
         glEnableVertexAttribArray(1);
 
         // Draw the batch
-        glDrawArrays(GL_LINES, 0, lines.size() * 6 * 2);
+        glDrawArrays(GL_LINES, 0, lines.size() * 2);
 
         // Disable Location
         glDisableVertexAttribArray(0);
