@@ -1,46 +1,37 @@
 package editor;
 
 import components.NonPickable;
+import components.SpriteRenderer;
 import imgui.ImGui;
 import jade.GameObject;
 import jade.MouseListener;
+import org.joml.Vector4f;
 import physics2d.components.Box2DCollider;
 import physics2d.components.CircleCollider;
 import physics2d.components.Rigidbody2D;
 import renderer.PickingTexture;
 import scenes.Scene;
+import java.util.ArrayList;
+import java.util.List;
 
 import static org.lwjgl.glfw.GLFW.GLFW_MOUSE_BUTTON_LEFT;
 
 public class PropertiesWindow {
+    private List<GameObject> activeGameObjects;
+    private List<Vector4f> activeGameObjectsOgColor;
     private GameObject activeGameObject = null;
     private PickingTexture pickingTexture;
-    private float debounce = 0.2f;
+
 
     public PropertiesWindow(PickingTexture pickingTexture) {
         this.pickingTexture = pickingTexture;
-    }
-
-    public void update(float dt, Scene currentScene) {
-        debounce -= dt;
-
-        if (!MouseListener.isDragging() && MouseListener.mouseButtonDown(GLFW_MOUSE_BUTTON_LEFT) && debounce < 0) {
-            int x = (int)MouseListener.getScreenX();
-            int y = (int)MouseListener.getScreenY();
-            int gameObjectId = pickingTexture.readPixel(x, y);
-            GameObject pickedObj = currentScene.getGameObject(gameObjectId);
-            if (pickedObj != null && pickedObj.getComponent(NonPickable.class) == null) {
-                activeGameObject = pickedObj;
-            } else if (pickedObj == null && !MouseListener.isDragging()) {
-                activeGameObject = null;
-            }
-
-            this.debounce = 0.2f;
-        }
+        this.activeGameObjects = new ArrayList<>();
+        this.activeGameObjectsOgColor = new ArrayList<>();
     }
 
     public void imgui() {
-        if (activeGameObject != null) {
+        if (activeGameObjects.size() == 1 && activeGameObjects.get(0) != null) {
+            activeGameObject = activeGameObjects.get(0);
             ImGui.begin("Properties");
             if (ImGui.beginPopupContextWindow("ComponentAdder")) {
                 if (ImGui.menuItem("Add Rigidbody")) {
@@ -71,10 +62,45 @@ public class PropertiesWindow {
     }
 
     public GameObject getActiveGameObject() {
-        return this.activeGameObject;
+        return activeGameObjects.size() == 1 ? this.activeGameObjects.get(0) :
+                null;
+    }
+
+    public List<GameObject> getActiveGameObjects() {
+        return this.activeGameObjects;
+    }
+
+    public void clearSelected() {
+
+        if (activeGameObjectsOgColor.size() > 0) {
+            int i = 0;
+            for (GameObject go : activeGameObjects) {
+                SpriteRenderer spr = go.getComponent(SpriteRenderer.class);
+                if (spr != null) {
+                    spr.setColor(activeGameObjectsOgColor.get(i));
+                }
+                i++;
+            }
+        }
+        this.activeGameObjects.clear();
+        this.activeGameObjectsOgColor.clear();
     }
     public void setActiveGameObject(GameObject go) {
-        this.activeGameObject = go;
+        if (go != null) {
+            clearSelected();
+            this.activeGameObjects.add(go);
+        }
+    }
+
+    public void addActiveGameObject(GameObject go) {
+        SpriteRenderer spr = go.getComponent(SpriteRenderer.class);
+        if (spr != null ) {
+            this.activeGameObjectsOgColor.add(new Vector4f(spr.getColor()));
+            spr.setColor(new Vector4f(0.8f, 0.8f, 0.0f, 0.8f));
+        } else {
+            this.activeGameObjectsOgColor.add(new Vector4f());
+        }
+        this.activeGameObjects.add(go);
     }
 
     public PickingTexture getPickingTexture() {
