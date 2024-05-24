@@ -27,6 +27,7 @@ public  class Scene {
     private Camera camera;
     private boolean isRunning;
     private List<GameObject> gameObjects;
+    private List<GameObject> pendingObjects;
     private Physics2D physics2D;
     private SceneInitializer sceneInitializer;
     public Scene(SceneInitializer sceneInitializer) {
@@ -34,6 +35,7 @@ public  class Scene {
         this.physics2D = new Physics2D();
         this.renderer = new Renderer();
         this.gameObjects = new ArrayList<>();
+        this.pendingObjects = new ArrayList<>();
         this.isRunning = false;
     }
     public Physics2D getPhysics() {
@@ -59,10 +61,7 @@ public  class Scene {
         if (!isRunning) {
             gameObjects.add(go);
         } else {
-            gameObjects.add(go);
-            go.start();
-            this.renderer.add(go);
-            this.physics2D.add(go);
+            pendingObjects.add(go);
         }
     }
 
@@ -97,6 +96,13 @@ public  class Scene {
                 i--;
             }
         }
+        for (GameObject go : pendingObjects) {
+            gameObjects.add(go);
+            go.start();
+            this.renderer.add(go);
+            this.physics2D.add(go);
+        }
+        pendingObjects.clear();
     }
 
     public void update(float dt) {
@@ -114,6 +120,13 @@ public  class Scene {
                 i--;
             }
         }
+        for (GameObject go : pendingObjects) {
+            gameObjects.add(go);
+            go.start();
+            this.renderer.add(go);
+            this.physics2D.add(go);
+        }
+        pendingObjects.clear();
     }
 
     public void render() {
