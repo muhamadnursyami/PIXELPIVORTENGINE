@@ -1,9 +1,11 @@
 package editor;
 
 import components.NonPickable;
+import components.SpriteRenderer;
 import imgui.ImGui;
 import jade.GameObject;
 import jade.MouseListener;
+import org.joml.Vector4f;
 import physics2d.components.Box2DCollider;
 import physics2d.components.CircleCollider;
 import physics2d.components.Rigidbody2D;
@@ -16,6 +18,7 @@ import static org.lwjgl.glfw.GLFW.GLFW_MOUSE_BUTTON_LEFT;
 
 public class PropertiesWindow {
     private List<GameObject> activeGameObjects;
+    private List<Vector4f> activeGameObjectsOgColor;
     private GameObject activeGameObject = null;
     private PickingTexture pickingTexture;
 
@@ -23,6 +26,7 @@ public class PropertiesWindow {
     public PropertiesWindow(PickingTexture pickingTexture) {
         this.pickingTexture = pickingTexture;
         this.activeGameObjects = new ArrayList<>();
+        this.activeGameObjectsOgColor = new ArrayList<>();
     }
 
     public void imgui() {
@@ -67,7 +71,19 @@ public class PropertiesWindow {
     }
 
     public void clearSelected() {
+
+        if (activeGameObjectsOgColor.size() > 0) {
+            int i = 0;
+            for (GameObject go : activeGameObjects) {
+                SpriteRenderer spr = go.getComponent(SpriteRenderer.class);
+                if (spr != null) {
+                    spr.setColor(activeGameObjectsOgColor.get(i));
+                }
+                i++;
+            }
+        }
         this.activeGameObjects.clear();
+        this.activeGameObjectsOgColor.clear();
     }
     public void setActiveGameObject(GameObject go) {
         if (go != null) {
@@ -77,6 +93,13 @@ public class PropertiesWindow {
     }
 
     public void addActiveGameObject(GameObject go) {
+        SpriteRenderer spr = go.getComponent(SpriteRenderer.class);
+        if (spr != null ) {
+            this.activeGameObjectsOgColor.add(new Vector4f(spr.getColor()));
+            spr.setColor(new Vector4f(0.8f, 0.8f, 0.0f, 0.8f));
+        } else {
+            this.activeGameObjectsOgColor.add(new Vector4f());
+        }
         this.activeGameObjects.add(go);
     }
 

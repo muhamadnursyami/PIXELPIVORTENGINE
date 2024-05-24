@@ -11,6 +11,7 @@ import org.lwjgl.openal.ALC;
 import org.lwjgl.openal.ALCCapabilities;
 import org.lwjgl.openal.ALCapabilities;
 import org.lwjgl.opengl.GL;
+import physics2d.Physics2D;
 import scenes.LevelEditorSceneInitializer;
 import scenes.SceneInitializer;
 import scenes.Scene;
@@ -65,8 +66,11 @@ public class Window  implements Observer{
         return  Window.window;
     }
 
+
+    public static Physics2D getPhysics() { return currentScene.getPhysics(); }
     public static Scene getScene() {
-        return get().currentScene;
+
+        return currentScene;
     }
     public void  run(){
         System.out.println("Hello LWGJL" + Version.getVersion() + "!");
@@ -218,6 +222,7 @@ public class Window  implements Observer{
 
             this.framebuffer.unbind();
             this.imguiLayer.update(dt,currentScene);
+            KeyListener.endFrame();
             MouseListener.endFrame();
             glfwSwapBuffers(glfwWindow);
 
