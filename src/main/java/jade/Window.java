@@ -1,4 +1,5 @@
 package jade;
+import editor.GameViewWindow;
 import observers.EventSystem;
 import observers.Observer;
 import observers.events.Event;
@@ -158,10 +159,10 @@ public class Window  implements Observer{
 
 
 
-        this.framebuffer = new Framebuffer(3840, 2160);
+        this.framebuffer = new Framebuffer(1366, 768 );
 
-        this.pickingTexture = new PickingTexture(3840, 2160);
-        glViewport(0, 0, 3840, 2160);
+        this.pickingTexture = new PickingTexture(1366, 768);
+        glViewport(0, 0, 1366, 768);
 
         this.imguiLayer = new ImGuiLayer(glfwWindow, pickingTexture);
         this.imguiLayer.initImGui();
@@ -184,7 +185,7 @@ public class Window  implements Observer{
             glDisable(GL_BLEND);
             pickingTexture.enableWriting();
 
-            glViewport(0, 0, 3840, 2160);
+            glViewport(0, 0, 1366, 768 );
             glClearColor(0.0f, 0.0f, 0.0f, 0.0f);
             glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
@@ -205,7 +206,6 @@ public class Window  implements Observer{
 
 //
             if (dt >= 0){
-                DebugDraw.draw();
                 Renderer.bindShader(defaultShader);
                 if (runtimePlaying) {
                     currentScene.update(dt);
@@ -213,10 +213,12 @@ public class Window  implements Observer{
                     currentScene.editorUpdate(dt);
                 }
                 currentScene.render();
+                DebugDraw.draw();
             }
 
             this.framebuffer.unbind();
             this.imguiLayer.update(dt,currentScene);
+            MouseListener.endFrame();
             glfwSwapBuffers(glfwWindow);
 
             endTime = (float)glfwGetTime();
@@ -226,11 +228,13 @@ public class Window  implements Observer{
     }
 
     public static int getWidth() {
-        return get().width;
+
+        return 1366;//get().width;
     }
 
     public static int getHeight() {
-        return get().height;
+
+        return 768 ;//get().height;
     }
 
     public static void setWidth(int newWidth) {

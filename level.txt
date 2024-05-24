@@ -1,1 +1,7962 @@
-[]
+[
+  {
+    "uid": 419,
+    "name": "Sprite_Object_Gen",
+    "components": [
+      {
+        "type": "jade.Transform",
+        "properties": {
+          "position": {
+            "x": 0.125,
+            "y": 0.375
+          },
+          "scale": {
+            "x": 0.25,
+            "y": 0.25
+          },
+          "rotation": 0.0,
+          "zIndex": 0,
+          "uid": 20
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "width": 16.0,
+            "height": 16.0,
+            "texture": {
+              "filepath": "assets/images/spritesheets/tileset1.png",
+              "width": 96,
+              "height": 144
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 0.5555556
+              },
+              {
+                "x": 1.0,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.5555556
+              }
+            ]
+          },
+          "uid": 21
+        }
+      }
+    ],
+    "doSerialization": true,
+    "isDead": false
+  },
+  {
+    "uid": 420,
+    "name": "Sprite_Object_Gen",
+    "components": [
+      {
+        "type": "jade.Transform",
+        "properties": {
+          "position": {
+            "x": 0.125,
+            "y": 0.375
+          },
+          "scale": {
+            "x": 0.25,
+            "y": 0.25
+          },
+          "rotation": 0.0,
+          "zIndex": 0,
+          "uid": 20
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "width": 16.0,
+            "height": 16.0,
+            "texture": {
+              "filepath": "assets/images/spritesheets/tileset1.png",
+              "width": 96,
+              "height": 144
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 0.5555556
+              },
+              {
+                "x": 1.0,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.5555556
+              }
+            ]
+          },
+          "uid": 21
+        }
+      }
+    ],
+    "doSerialization": true,
+    "isDead": false
+  },
+  {
+    "uid": 421,
+    "name": "Sprite_Object_Gen",
+    "components": [
+      {
+        "type": "jade.Transform",
+        "properties": {
+          "position": {
+            "x": 0.125,
+            "y": 0.375
+          },
+          "scale": {
+            "x": 0.25,
+            "y": 0.25
+          },
+          "rotation": 0.0,
+          "zIndex": 0,
+          "uid": 20
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "width": 16.0,
+            "height": 16.0,
+            "texture": {
+              "filepath": "assets/images/spritesheets/tileset1.png",
+              "width": 96,
+              "height": 144
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 0.5555556
+              },
+              {
+                "x": 1.0,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.5555556
+              }
+            ]
+          },
+          "uid": 21
+        }
+      }
+    ],
+    "doSerialization": true,
+    "isDead": false
+  },
+  {
+    "uid": 422,
+    "name": "Sprite_Object_Gen",
+    "components": [
+      {
+        "type": "jade.Transform",
+        "properties": {
+          "position": {
+            "x": 0.375,
+            "y": 0.375
+          },
+          "scale": {
+            "x": 0.25,
+            "y": 0.25
+          },
+          "rotation": 0.0,
+          "zIndex": 0,
+          "uid": 20
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "width": 16.0,
+            "height": 16.0,
+            "texture": {
+              "filepath": "assets/images/spritesheets/tileset1.png",
+              "width": 96,
+              "height": 144
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 0.5555556
+              },
+              {
+                "x": 1.0,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.5555556
+              }
+            ]
+          },
+          "uid": 21
+        }
+      }
+    ],
+    "doSerialization": true,
+    "isDead": false
+  },
+  {
+    "uid": 423,
+    "name": "Sprite_Object_Gen",
+    "components": [
+      {
+        "type": "jade.Transform",
+        "properties": {
+          "position": {
+            "x": 0.625,
+            "y": 0.375
+          },
+          "scale": {
+            "x": 0.25,
+            "y": 0.25
+          },
+          "rotation": 0.0,
+          "zIndex": 0,
+          "uid": 20
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "width": 16.0,
+            "height": 16.0,
+            "texture": {
+              "filepath": "assets/images/spritesheets/tileset1.png",
+              "width": 96,
+              "height": 144
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 0.5555556
+              },
+              {
+                "x": 1.0,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.5555556
+              }
+            ]
+          },
+          "uid": 21
+        }
+      }
+    ],
+    "doSerialization": true,
+    "isDead": false
+  },
+  {
+    "uid": 424,
+    "name": "Sprite_Object_Gen",
+    "components": [
+      {
+        "type": "jade.Transform",
+        "properties": {
+          "position": {
+            "x": 0.875,
+            "y": 0.375
+          },
+          "scale": {
+            "x": 0.25,
+            "y": 0.25
+          },
+          "rotation": 0.0,
+          "zIndex": 0,
+          "uid": 20
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "width": 16.0,
+            "height": 16.0,
+            "texture": {
+              "filepath": "assets/images/spritesheets/tileset1.png",
+              "width": 96,
+              "height": 144
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 0.5555556
+              },
+              {
+                "x": 1.0,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.5555556
+              }
+            ]
+          },
+          "uid": 21
+        }
+      }
+    ],
+    "doSerialization": true,
+    "isDead": false
+  },
+  {
+    "uid": 425,
+    "name": "Sprite_Object_Gen",
+    "components": [
+      {
+        "type": "jade.Transform",
+        "properties": {
+          "position": {
+            "x": 0.875,
+            "y": 0.375
+          },
+          "scale": {
+            "x": 0.25,
+            "y": 0.25
+          },
+          "rotation": 0.0,
+          "zIndex": 0,
+          "uid": 20
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "width": 16.0,
+            "height": 16.0,
+            "texture": {
+              "filepath": "assets/images/spritesheets/tileset1.png",
+              "width": 96,
+              "height": 144
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 0.5555556
+              },
+              {
+                "x": 1.0,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.5555556
+              }
+            ]
+          },
+          "uid": 21
+        }
+      }
+    ],
+    "doSerialization": true,
+    "isDead": false
+  },
+  {
+    "uid": 426,
+    "name": "Sprite_Object_Gen",
+    "components": [
+      {
+        "type": "jade.Transform",
+        "properties": {
+          "position": {
+            "x": 1.125,
+            "y": 0.375
+          },
+          "scale": {
+            "x": 0.25,
+            "y": 0.25
+          },
+          "rotation": 0.0,
+          "zIndex": 0,
+          "uid": 20
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "width": 16.0,
+            "height": 16.0,
+            "texture": {
+              "filepath": "assets/images/spritesheets/tileset1.png",
+              "width": 96,
+              "height": 144
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 0.5555556
+              },
+              {
+                "x": 1.0,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.5555556
+              }
+            ]
+          },
+          "uid": 21
+        }
+      }
+    ],
+    "doSerialization": true,
+    "isDead": false
+  },
+  {
+    "uid": 427,
+    "name": "Sprite_Object_Gen",
+    "components": [
+      {
+        "type": "jade.Transform",
+        "properties": {
+          "position": {
+            "x": 1.125,
+            "y": 0.375
+          },
+          "scale": {
+            "x": 0.25,
+            "y": 0.25
+          },
+          "rotation": 0.0,
+          "zIndex": 0,
+          "uid": 20
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "width": 16.0,
+            "height": 16.0,
+            "texture": {
+              "filepath": "assets/images/spritesheets/tileset1.png",
+              "width": 96,
+              "height": 144
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 0.5555556
+              },
+              {
+                "x": 1.0,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.5555556
+              }
+            ]
+          },
+          "uid": 21
+        }
+      }
+    ],
+    "doSerialization": true,
+    "isDead": false
+  },
+  {
+    "uid": 428,
+    "name": "Sprite_Object_Gen",
+    "components": [
+      {
+        "type": "jade.Transform",
+        "properties": {
+          "position": {
+            "x": 1.625,
+            "y": 0.375
+          },
+          "scale": {
+            "x": 0.25,
+            "y": 0.25
+          },
+          "rotation": 0.0,
+          "zIndex": 0,
+          "uid": 20
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "width": 16.0,
+            "height": 16.0,
+            "texture": {
+              "filepath": "assets/images/spritesheets/tileset1.png",
+              "width": 96,
+              "height": 144
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 0.5555556
+              },
+              {
+                "x": 1.0,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.5555556
+              }
+            ]
+          },
+          "uid": 21
+        }
+      }
+    ],
+    "doSerialization": true,
+    "isDead": false
+  },
+  {
+    "uid": 429,
+    "name": "Sprite_Object_Gen",
+    "components": [
+      {
+        "type": "jade.Transform",
+        "properties": {
+          "position": {
+            "x": 1.875,
+            "y": 0.375
+          },
+          "scale": {
+            "x": 0.25,
+            "y": 0.25
+          },
+          "rotation": 0.0,
+          "zIndex": 0,
+          "uid": 20
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "width": 16.0,
+            "height": 16.0,
+            "texture": {
+              "filepath": "assets/images/spritesheets/tileset1.png",
+              "width": 96,
+              "height": 144
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 0.5555556
+              },
+              {
+                "x": 1.0,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.5555556
+              }
+            ]
+          },
+          "uid": 21
+        }
+      }
+    ],
+    "doSerialization": true,
+    "isDead": false
+  },
+  {
+    "uid": 430,
+    "name": "Sprite_Object_Gen",
+    "components": [
+      {
+        "type": "jade.Transform",
+        "properties": {
+          "position": {
+            "x": 2.125,
+            "y": 0.375
+          },
+          "scale": {
+            "x": 0.25,
+            "y": 0.25
+          },
+          "rotation": 0.0,
+          "zIndex": 0,
+          "uid": 20
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "width": 16.0,
+            "height": 16.0,
+            "texture": {
+              "filepath": "assets/images/spritesheets/tileset1.png",
+              "width": 96,
+              "height": 144
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 0.5555556
+              },
+              {
+                "x": 1.0,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.5555556
+              }
+            ]
+          },
+          "uid": 21
+        }
+      }
+    ],
+    "doSerialization": true,
+    "isDead": false
+  },
+  {
+    "uid": 431,
+    "name": "Sprite_Object_Gen",
+    "components": [
+      {
+        "type": "jade.Transform",
+        "properties": {
+          "position": {
+            "x": 2.125,
+            "y": 0.375
+          },
+          "scale": {
+            "x": 0.25,
+            "y": 0.25
+          },
+          "rotation": 0.0,
+          "zIndex": 0,
+          "uid": 20
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "width": 16.0,
+            "height": 16.0,
+            "texture": {
+              "filepath": "assets/images/spritesheets/tileset1.png",
+              "width": 96,
+              "height": 144
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 0.5555556
+              },
+              {
+                "x": 1.0,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.5555556
+              }
+            ]
+          },
+          "uid": 21
+        }
+      }
+    ],
+    "doSerialization": true,
+    "isDead": false
+  },
+  {
+    "uid": 432,
+    "name": "Sprite_Object_Gen",
+    "components": [
+      {
+        "type": "jade.Transform",
+        "properties": {
+          "position": {
+            "x": 2.375,
+            "y": 0.375
+          },
+          "scale": {
+            "x": 0.25,
+            "y": 0.25
+          },
+          "rotation": 0.0,
+          "zIndex": 0,
+          "uid": 20
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "width": 16.0,
+            "height": 16.0,
+            "texture": {
+              "filepath": "assets/images/spritesheets/tileset1.png",
+              "width": 96,
+              "height": 144
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 0.5555556
+              },
+              {
+                "x": 1.0,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.5555556
+              }
+            ]
+          },
+          "uid": 21
+        }
+      }
+    ],
+    "doSerialization": true,
+    "isDead": false
+  },
+  {
+    "uid": 433,
+    "name": "Sprite_Object_Gen",
+    "components": [
+      {
+        "type": "jade.Transform",
+        "properties": {
+          "position": {
+            "x": 2.625,
+            "y": 0.375
+          },
+          "scale": {
+            "x": 0.25,
+            "y": 0.25
+          },
+          "rotation": 0.0,
+          "zIndex": 0,
+          "uid": 20
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "width": 16.0,
+            "height": 16.0,
+            "texture": {
+              "filepath": "assets/images/spritesheets/tileset1.png",
+              "width": 96,
+              "height": 144
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 0.5555556
+              },
+              {
+                "x": 1.0,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.5555556
+              }
+            ]
+          },
+          "uid": 21
+        }
+      }
+    ],
+    "doSerialization": true,
+    "isDead": false
+  },
+  {
+    "uid": 434,
+    "name": "Sprite_Object_Gen",
+    "components": [
+      {
+        "type": "jade.Transform",
+        "properties": {
+          "position": {
+            "x": 2.875,
+            "y": 0.375
+          },
+          "scale": {
+            "x": 0.25,
+            "y": 0.25
+          },
+          "rotation": 0.0,
+          "zIndex": 0,
+          "uid": 20
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "width": 16.0,
+            "height": 16.0,
+            "texture": {
+              "filepath": "assets/images/spritesheets/tileset1.png",
+              "width": 96,
+              "height": 144
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 0.5555556
+              },
+              {
+                "x": 1.0,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.5555556
+              }
+            ]
+          },
+          "uid": 21
+        }
+      }
+    ],
+    "doSerialization": true,
+    "isDead": false
+  },
+  {
+    "uid": 435,
+    "name": "Sprite_Object_Gen",
+    "components": [
+      {
+        "type": "jade.Transform",
+        "properties": {
+          "position": {
+            "x": 3.125,
+            "y": 0.375
+          },
+          "scale": {
+            "x": 0.25,
+            "y": 0.25
+          },
+          "rotation": 0.0,
+          "zIndex": 0,
+          "uid": 20
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "width": 16.0,
+            "height": 16.0,
+            "texture": {
+              "filepath": "assets/images/spritesheets/tileset1.png",
+              "width": 96,
+              "height": 144
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 0.5555556
+              },
+              {
+                "x": 1.0,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.5555556
+              }
+            ]
+          },
+          "uid": 21
+        }
+      }
+    ],
+    "doSerialization": true,
+    "isDead": false
+  },
+  {
+    "uid": 436,
+    "name": "Sprite_Object_Gen",
+    "components": [
+      {
+        "type": "jade.Transform",
+        "properties": {
+          "position": {
+            "x": 3.375,
+            "y": 0.375
+          },
+          "scale": {
+            "x": 0.25,
+            "y": 0.25
+          },
+          "rotation": 0.0,
+          "zIndex": 0,
+          "uid": 20
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "width": 16.0,
+            "height": 16.0,
+            "texture": {
+              "filepath": "assets/images/spritesheets/tileset1.png",
+              "width": 96,
+              "height": 144
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 0.5555556
+              },
+              {
+                "x": 1.0,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.5555556
+              }
+            ]
+          },
+          "uid": 21
+        }
+      }
+    ],
+    "doSerialization": true,
+    "isDead": false
+  },
+  {
+    "uid": 437,
+    "name": "Sprite_Object_Gen",
+    "components": [
+      {
+        "type": "jade.Transform",
+        "properties": {
+          "position": {
+            "x": 3.625,
+            "y": 0.375
+          },
+          "scale": {
+            "x": 0.25,
+            "y": 0.25
+          },
+          "rotation": 0.0,
+          "zIndex": 0,
+          "uid": 20
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "width": 16.0,
+            "height": 16.0,
+            "texture": {
+              "filepath": "assets/images/spritesheets/tileset1.png",
+              "width": 96,
+              "height": 144
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 0.5555556
+              },
+              {
+                "x": 1.0,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.5555556
+              }
+            ]
+          },
+          "uid": 21
+        }
+      }
+    ],
+    "doSerialization": true,
+    "isDead": false
+  },
+  {
+    "uid": 438,
+    "name": "Sprite_Object_Gen",
+    "components": [
+      {
+        "type": "jade.Transform",
+        "properties": {
+          "position": {
+            "x": 3.875,
+            "y": 0.375
+          },
+          "scale": {
+            "x": 0.25,
+            "y": 0.25
+          },
+          "rotation": 0.0,
+          "zIndex": 0,
+          "uid": 20
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "width": 16.0,
+            "height": 16.0,
+            "texture": {
+              "filepath": "assets/images/spritesheets/tileset1.png",
+              "width": 96,
+              "height": 144
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 0.5555556
+              },
+              {
+                "x": 1.0,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.5555556
+              }
+            ]
+          },
+          "uid": 21
+        }
+      }
+    ],
+    "doSerialization": true,
+    "isDead": false
+  },
+  {
+    "uid": 439,
+    "name": "Sprite_Object_Gen",
+    "components": [
+      {
+        "type": "jade.Transform",
+        "properties": {
+          "position": {
+            "x": 3.875,
+            "y": 0.375
+          },
+          "scale": {
+            "x": 0.25,
+            "y": 0.25
+          },
+          "rotation": 0.0,
+          "zIndex": 0,
+          "uid": 20
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "width": 16.0,
+            "height": 16.0,
+            "texture": {
+              "filepath": "assets/images/spritesheets/tileset1.png",
+              "width": 96,
+              "height": 144
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 0.5555556
+              },
+              {
+                "x": 1.0,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.5555556
+              }
+            ]
+          },
+          "uid": 21
+        }
+      }
+    ],
+    "doSerialization": true,
+    "isDead": false
+  },
+  {
+    "uid": 440,
+    "name": "Sprite_Object_Gen",
+    "components": [
+      {
+        "type": "jade.Transform",
+        "properties": {
+          "position": {
+            "x": 3.875,
+            "y": 0.375
+          },
+          "scale": {
+            "x": 0.25,
+            "y": 0.25
+          },
+          "rotation": 0.0,
+          "zIndex": 0,
+          "uid": 20
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "width": 16.0,
+            "height": 16.0,
+            "texture": {
+              "filepath": "assets/images/spritesheets/tileset1.png",
+              "width": 96,
+              "height": 144
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 0.5555556
+              },
+              {
+                "x": 1.0,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.5555556
+              }
+            ]
+          },
+          "uid": 21
+        }
+      }
+    ],
+    "doSerialization": true,
+    "isDead": false
+  },
+  {
+    "uid": 441,
+    "name": "Sprite_Object_Gen",
+    "components": [
+      {
+        "type": "jade.Transform",
+        "properties": {
+          "position": {
+            "x": 3.875,
+            "y": 0.375
+          },
+          "scale": {
+            "x": 0.25,
+            "y": 0.25
+          },
+          "rotation": 0.0,
+          "zIndex": 0,
+          "uid": 20
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "width": 16.0,
+            "height": 16.0,
+            "texture": {
+              "filepath": "assets/images/spritesheets/tileset1.png",
+              "width": 96,
+              "height": 144
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 0.5555556
+              },
+              {
+                "x": 1.0,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.5555556
+              }
+            ]
+          },
+          "uid": 21
+        }
+      }
+    ],
+    "doSerialization": true,
+    "isDead": false
+  },
+  {
+    "uid": 442,
+    "name": "Sprite_Object_Gen",
+    "components": [
+      {
+        "type": "jade.Transform",
+        "properties": {
+          "position": {
+            "x": 3.875,
+            "y": 0.375
+          },
+          "scale": {
+            "x": 0.25,
+            "y": 0.25
+          },
+          "rotation": 0.0,
+          "zIndex": 0,
+          "uid": 20
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "width": 16.0,
+            "height": 16.0,
+            "texture": {
+              "filepath": "assets/images/spritesheets/tileset1.png",
+              "width": 96,
+              "height": 144
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 0.5555556
+              },
+              {
+                "x": 1.0,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.5555556
+              }
+            ]
+          },
+          "uid": 21
+        }
+      }
+    ],
+    "doSerialization": true,
+    "isDead": false
+  },
+  {
+    "uid": 443,
+    "name": "Sprite_Object_Gen",
+    "components": [
+      {
+        "type": "jade.Transform",
+        "properties": {
+          "position": {
+            "x": 3.875,
+            "y": 0.375
+          },
+          "scale": {
+            "x": 0.25,
+            "y": 0.25
+          },
+          "rotation": 0.0,
+          "zIndex": 0,
+          "uid": 20
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "width": 16.0,
+            "height": 16.0,
+            "texture": {
+              "filepath": "assets/images/spritesheets/tileset1.png",
+              "width": 96,
+              "height": 144
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 0.5555556
+              },
+              {
+                "x": 1.0,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.5555556
+              }
+            ]
+          },
+          "uid": 21
+        }
+      }
+    ],
+    "doSerialization": true,
+    "isDead": false
+  },
+  {
+    "uid": 444,
+    "name": "Sprite_Object_Gen",
+    "components": [
+      {
+        "type": "jade.Transform",
+        "properties": {
+          "position": {
+            "x": 3.875,
+            "y": 0.375
+          },
+          "scale": {
+            "x": 0.25,
+            "y": 0.25
+          },
+          "rotation": 0.0,
+          "zIndex": 0,
+          "uid": 20
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "width": 16.0,
+            "height": 16.0,
+            "texture": {
+              "filepath": "assets/images/spritesheets/tileset1.png",
+              "width": 96,
+              "height": 144
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 0.5555556
+              },
+              {
+                "x": 1.0,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.5555556
+              }
+            ]
+          },
+          "uid": 21
+        }
+      }
+    ],
+    "doSerialization": true,
+    "isDead": false
+  },
+  {
+    "uid": 445,
+    "name": "Sprite_Object_Gen",
+    "components": [
+      {
+        "type": "jade.Transform",
+        "properties": {
+          "position": {
+            "x": 3.875,
+            "y": 0.375
+          },
+          "scale": {
+            "x": 0.25,
+            "y": 0.25
+          },
+          "rotation": 0.0,
+          "zIndex": 0,
+          "uid": 20
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "width": 16.0,
+            "height": 16.0,
+            "texture": {
+              "filepath": "assets/images/spritesheets/tileset1.png",
+              "width": 96,
+              "height": 144
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 0.5555556
+              },
+              {
+                "x": 1.0,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.5555556
+              }
+            ]
+          },
+          "uid": 21
+        }
+      }
+    ],
+    "doSerialization": true,
+    "isDead": false
+  },
+  {
+    "uid": 446,
+    "name": "Sprite_Object_Gen",
+    "components": [
+      {
+        "type": "jade.Transform",
+        "properties": {
+          "position": {
+            "x": 3.875,
+            "y": 0.375
+          },
+          "scale": {
+            "x": 0.25,
+            "y": 0.25
+          },
+          "rotation": 0.0,
+          "zIndex": 0,
+          "uid": 20
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "width": 16.0,
+            "height": 16.0,
+            "texture": {
+              "filepath": "assets/images/spritesheets/tileset1.png",
+              "width": 96,
+              "height": 144
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 0.5555556
+              },
+              {
+                "x": 1.0,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.5555556
+              }
+            ]
+          },
+          "uid": 21
+        }
+      }
+    ],
+    "doSerialization": true,
+    "isDead": false
+  },
+  {
+    "uid": 447,
+    "name": "Sprite_Object_Gen",
+    "components": [
+      {
+        "type": "jade.Transform",
+        "properties": {
+          "position": {
+            "x": 1.375,
+            "y": 0.375
+          },
+          "scale": {
+            "x": 0.25,
+            "y": 0.25
+          },
+          "rotation": 0.0,
+          "zIndex": 0,
+          "uid": 20
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "width": 16.0,
+            "height": 16.0,
+            "texture": {
+              "filepath": "assets/images/spritesheets/tileset1.png",
+              "width": 96,
+              "height": 144
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 0.5555556
+              },
+              {
+                "x": 1.0,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.5555556
+              }
+            ]
+          },
+          "uid": 21
+        }
+      }
+    ],
+    "doSerialization": true,
+    "isDead": false
+  },
+  {
+    "uid": 448,
+    "name": "Sprite_Object_Gen",
+    "components": [
+      {
+        "type": "jade.Transform",
+        "properties": {
+          "position": {
+            "x": 4.125,
+            "y": 0.375
+          },
+          "scale": {
+            "x": 0.25,
+            "y": 0.25
+          },
+          "rotation": 0.0,
+          "zIndex": 0,
+          "uid": 20
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "width": 16.0,
+            "height": 16.0,
+            "texture": {
+              "filepath": "assets/images/spritesheets/tileset1.png",
+              "width": 96,
+              "height": 144
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 0.5555556
+              },
+              {
+                "x": 1.0,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.5555556
+              }
+            ]
+          },
+          "uid": 21
+        }
+      }
+    ],
+    "doSerialization": true,
+    "isDead": false
+  },
+  {
+    "uid": 449,
+    "name": "Sprite_Object_Gen",
+    "components": [
+      {
+        "type": "jade.Transform",
+        "properties": {
+          "position": {
+            "x": 4.125,
+            "y": 0.375
+          },
+          "scale": {
+            "x": 0.25,
+            "y": 0.25
+          },
+          "rotation": 0.0,
+          "zIndex": 0,
+          "uid": 20
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "width": 16.0,
+            "height": 16.0,
+            "texture": {
+              "filepath": "assets/images/spritesheets/tileset1.png",
+              "width": 96,
+              "height": 144
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 0.5555556
+              },
+              {
+                "x": 1.0,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.5555556
+              }
+            ]
+          },
+          "uid": 21
+        }
+      }
+    ],
+    "doSerialization": true,
+    "isDead": false
+  },
+  {
+    "uid": 450,
+    "name": "Sprite_Object_Gen",
+    "components": [
+      {
+        "type": "jade.Transform",
+        "properties": {
+          "position": {
+            "x": 4.125,
+            "y": 0.375
+          },
+          "scale": {
+            "x": 0.25,
+            "y": 0.25
+          },
+          "rotation": 0.0,
+          "zIndex": 0,
+          "uid": 20
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "width": 16.0,
+            "height": 16.0,
+            "texture": {
+              "filepath": "assets/images/spritesheets/tileset1.png",
+              "width": 96,
+              "height": 144
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 0.5555556
+              },
+              {
+                "x": 1.0,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.5555556
+              }
+            ]
+          },
+          "uid": 21
+        }
+      }
+    ],
+    "doSerialization": true,
+    "isDead": false
+  },
+  {
+    "uid": 451,
+    "name": "Sprite_Object_Gen",
+    "components": [
+      {
+        "type": "jade.Transform",
+        "properties": {
+          "position": {
+            "x": 4.375,
+            "y": 0.375
+          },
+          "scale": {
+            "x": 0.25,
+            "y": 0.25
+          },
+          "rotation": 0.0,
+          "zIndex": 0,
+          "uid": 20
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "width": 16.0,
+            "height": 16.0,
+            "texture": {
+              "filepath": "assets/images/spritesheets/tileset1.png",
+              "width": 96,
+              "height": 144
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 0.5555556
+              },
+              {
+                "x": 1.0,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.5555556
+              }
+            ]
+          },
+          "uid": 21
+        }
+      }
+    ],
+    "doSerialization": true,
+    "isDead": false
+  },
+  {
+    "uid": 452,
+    "name": "Sprite_Object_Gen",
+    "components": [
+      {
+        "type": "jade.Transform",
+        "properties": {
+          "position": {
+            "x": 4.625,
+            "y": 0.375
+          },
+          "scale": {
+            "x": 0.25,
+            "y": 0.25
+          },
+          "rotation": 0.0,
+          "zIndex": 0,
+          "uid": 20
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "width": 16.0,
+            "height": 16.0,
+            "texture": {
+              "filepath": "assets/images/spritesheets/tileset1.png",
+              "width": 96,
+              "height": 144
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 0.5555556
+              },
+              {
+                "x": 1.0,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.5555556
+              }
+            ]
+          },
+          "uid": 21
+        }
+      }
+    ],
+    "doSerialization": true,
+    "isDead": false
+  },
+  {
+    "uid": 453,
+    "name": "Sprite_Object_Gen",
+    "components": [
+      {
+        "type": "jade.Transform",
+        "properties": {
+          "position": {
+            "x": 4.625,
+            "y": 0.375
+          },
+          "scale": {
+            "x": 0.25,
+            "y": 0.25
+          },
+          "rotation": 0.0,
+          "zIndex": 0,
+          "uid": 20
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "width": 16.0,
+            "height": 16.0,
+            "texture": {
+              "filepath": "assets/images/spritesheets/tileset1.png",
+              "width": 96,
+              "height": 144
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 0.5555556
+              },
+              {
+                "x": 1.0,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.5555556
+              }
+            ]
+          },
+          "uid": 21
+        }
+      }
+    ],
+    "doSerialization": true,
+    "isDead": false
+  },
+  {
+    "uid": 454,
+    "name": "Sprite_Object_Gen",
+    "components": [
+      {
+        "type": "jade.Transform",
+        "properties": {
+          "position": {
+            "x": 4.875,
+            "y": 0.375
+          },
+          "scale": {
+            "x": 0.25,
+            "y": 0.25
+          },
+          "rotation": 0.0,
+          "zIndex": 0,
+          "uid": 20
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "width": 16.0,
+            "height": 16.0,
+            "texture": {
+              "filepath": "assets/images/spritesheets/tileset1.png",
+              "width": 96,
+              "height": 144
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 0.5555556
+              },
+              {
+                "x": 1.0,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.5555556
+              }
+            ]
+          },
+          "uid": 21
+        }
+      }
+    ],
+    "doSerialization": true,
+    "isDead": false
+  },
+  {
+    "uid": 455,
+    "name": "Sprite_Object_Gen",
+    "components": [
+      {
+        "type": "jade.Transform",
+        "properties": {
+          "position": {
+            "x": 4.875,
+            "y": 0.375
+          },
+          "scale": {
+            "x": 0.25,
+            "y": 0.25
+          },
+          "rotation": 0.0,
+          "zIndex": 0,
+          "uid": 20
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "width": 16.0,
+            "height": 16.0,
+            "texture": {
+              "filepath": "assets/images/spritesheets/tileset1.png",
+              "width": 96,
+              "height": 144
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 0.5555556
+              },
+              {
+                "x": 1.0,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.5555556
+              }
+            ]
+          },
+          "uid": 21
+        }
+      }
+    ],
+    "doSerialization": true,
+    "isDead": false
+  },
+  {
+    "uid": 456,
+    "name": "Sprite_Object_Gen",
+    "components": [
+      {
+        "type": "jade.Transform",
+        "properties": {
+          "position": {
+            "x": 5.125,
+            "y": 0.375
+          },
+          "scale": {
+            "x": 0.25,
+            "y": 0.25
+          },
+          "rotation": 0.0,
+          "zIndex": 0,
+          "uid": 20
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "width": 16.0,
+            "height": 16.0,
+            "texture": {
+              "filepath": "assets/images/spritesheets/tileset1.png",
+              "width": 96,
+              "height": 144
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 0.5555556
+              },
+              {
+                "x": 1.0,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.5555556
+              }
+            ]
+          },
+          "uid": 21
+        }
+      }
+    ],
+    "doSerialization": true,
+    "isDead": false
+  },
+  {
+    "uid": 457,
+    "name": "Sprite_Object_Gen",
+    "components": [
+      {
+        "type": "jade.Transform",
+        "properties": {
+          "position": {
+            "x": 5.125,
+            "y": 0.375
+          },
+          "scale": {
+            "x": 0.25,
+            "y": 0.25
+          },
+          "rotation": 0.0,
+          "zIndex": 0,
+          "uid": 20
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "width": 16.0,
+            "height": 16.0,
+            "texture": {
+              "filepath": "assets/images/spritesheets/tileset1.png",
+              "width": 96,
+              "height": 144
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 0.5555556
+              },
+              {
+                "x": 1.0,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.5555556
+              }
+            ]
+          },
+          "uid": 21
+        }
+      }
+    ],
+    "doSerialization": true,
+    "isDead": false
+  },
+  {
+    "uid": 458,
+    "name": "Sprite_Object_Gen",
+    "components": [
+      {
+        "type": "jade.Transform",
+        "properties": {
+          "position": {
+            "x": 5.125,
+            "y": 0.375
+          },
+          "scale": {
+            "x": 0.25,
+            "y": 0.25
+          },
+          "rotation": 0.0,
+          "zIndex": 0,
+          "uid": 20
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "width": 16.0,
+            "height": 16.0,
+            "texture": {
+              "filepath": "assets/images/spritesheets/tileset1.png",
+              "width": 96,
+              "height": 144
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 0.5555556
+              },
+              {
+                "x": 1.0,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.5555556
+              }
+            ]
+          },
+          "uid": 21
+        }
+      }
+    ],
+    "doSerialization": true,
+    "isDead": false
+  },
+  {
+    "uid": 459,
+    "name": "Sprite_Object_Gen",
+    "components": [
+      {
+        "type": "jade.Transform",
+        "properties": {
+          "position": {
+            "x": 5.125,
+            "y": 0.375
+          },
+          "scale": {
+            "x": 0.25,
+            "y": 0.25
+          },
+          "rotation": 0.0,
+          "zIndex": 0,
+          "uid": 20
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "width": 16.0,
+            "height": 16.0,
+            "texture": {
+              "filepath": "assets/images/spritesheets/tileset1.png",
+              "width": 96,
+              "height": 144
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 0.5555556
+              },
+              {
+                "x": 1.0,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.5555556
+              }
+            ]
+          },
+          "uid": 21
+        }
+      }
+    ],
+    "doSerialization": true,
+    "isDead": false
+  },
+  {
+    "uid": 460,
+    "name": "Sprite_Object_Gen",
+    "components": [
+      {
+        "type": "jade.Transform",
+        "properties": {
+          "position": {
+            "x": 5.125,
+            "y": 0.375
+          },
+          "scale": {
+            "x": 0.25,
+            "y": 0.25
+          },
+          "rotation": 0.0,
+          "zIndex": 0,
+          "uid": 20
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "width": 16.0,
+            "height": 16.0,
+            "texture": {
+              "filepath": "assets/images/spritesheets/tileset1.png",
+              "width": 96,
+              "height": 144
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 0.5555556
+              },
+              {
+                "x": 1.0,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.5555556
+              }
+            ]
+          },
+          "uid": 21
+        }
+      }
+    ],
+    "doSerialization": true,
+    "isDead": false
+  },
+  {
+    "uid": 461,
+    "name": "Sprite_Object_Gen",
+    "components": [
+      {
+        "type": "jade.Transform",
+        "properties": {
+          "position": {
+            "x": 5.125,
+            "y": 0.375
+          },
+          "scale": {
+            "x": 0.25,
+            "y": 0.25
+          },
+          "rotation": 0.0,
+          "zIndex": 0,
+          "uid": 20
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "width": 16.0,
+            "height": 16.0,
+            "texture": {
+              "filepath": "assets/images/spritesheets/tileset1.png",
+              "width": 96,
+              "height": 144
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 0.5555556
+              },
+              {
+                "x": 1.0,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.5555556
+              }
+            ]
+          },
+          "uid": 21
+        }
+      }
+    ],
+    "doSerialization": true,
+    "isDead": false
+  },
+  {
+    "uid": 462,
+    "name": "Sprite_Object_Gen",
+    "components": [
+      {
+        "type": "jade.Transform",
+        "properties": {
+          "position": {
+            "x": 5.125,
+            "y": 0.375
+          },
+          "scale": {
+            "x": 0.25,
+            "y": 0.25
+          },
+          "rotation": 0.0,
+          "zIndex": 0,
+          "uid": 20
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "width": 16.0,
+            "height": 16.0,
+            "texture": {
+              "filepath": "assets/images/spritesheets/tileset1.png",
+              "width": 96,
+              "height": 144
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 0.5555556
+              },
+              {
+                "x": 1.0,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.5555556
+              }
+            ]
+          },
+          "uid": 21
+        }
+      }
+    ],
+    "doSerialization": true,
+    "isDead": false
+  },
+  {
+    "uid": 463,
+    "name": "Sprite_Object_Gen",
+    "components": [
+      {
+        "type": "jade.Transform",
+        "properties": {
+          "position": {
+            "x": 5.375,
+            "y": 0.375
+          },
+          "scale": {
+            "x": 0.25,
+            "y": 0.25
+          },
+          "rotation": 0.0,
+          "zIndex": 0,
+          "uid": 20
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "width": 16.0,
+            "height": 16.0,
+            "texture": {
+              "filepath": "assets/images/spritesheets/tileset1.png",
+              "width": 96,
+              "height": 144
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 0.5555556
+              },
+              {
+                "x": 1.0,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.5555556
+              }
+            ]
+          },
+          "uid": 21
+        }
+      }
+    ],
+    "doSerialization": true,
+    "isDead": false
+  },
+  {
+    "uid": 464,
+    "name": "Sprite_Object_Gen",
+    "components": [
+      {
+        "type": "jade.Transform",
+        "properties": {
+          "position": {
+            "x": 5.625,
+            "y": 0.375
+          },
+          "scale": {
+            "x": 0.25,
+            "y": 0.25
+          },
+          "rotation": 0.0,
+          "zIndex": 0,
+          "uid": 20
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "width": 16.0,
+            "height": 16.0,
+            "texture": {
+              "filepath": "assets/images/spritesheets/tileset1.png",
+              "width": 96,
+              "height": 144
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 0.5555556
+              },
+              {
+                "x": 1.0,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.5555556
+              }
+            ]
+          },
+          "uid": 21
+        }
+      }
+    ],
+    "doSerialization": true,
+    "isDead": false
+  },
+  {
+    "uid": 465,
+    "name": "Sprite_Object_Gen",
+    "components": [
+      {
+        "type": "jade.Transform",
+        "properties": {
+          "position": {
+            "x": 5.625,
+            "y": 0.375
+          },
+          "scale": {
+            "x": 0.25,
+            "y": 0.25
+          },
+          "rotation": 0.0,
+          "zIndex": 0,
+          "uid": 20
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "width": 16.0,
+            "height": 16.0,
+            "texture": {
+              "filepath": "assets/images/spritesheets/tileset1.png",
+              "width": 96,
+              "height": 144
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 0.5555556
+              },
+              {
+                "x": 1.0,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.5555556
+              }
+            ]
+          },
+          "uid": 21
+        }
+      }
+    ],
+    "doSerialization": true,
+    "isDead": false
+  },
+  {
+    "uid": 466,
+    "name": "Sprite_Object_Gen",
+    "components": [
+      {
+        "type": "jade.Transform",
+        "properties": {
+          "position": {
+            "x": 5.625,
+            "y": 0.375
+          },
+          "scale": {
+            "x": 0.25,
+            "y": 0.25
+          },
+          "rotation": 0.0,
+          "zIndex": 0,
+          "uid": 20
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "width": 16.0,
+            "height": 16.0,
+            "texture": {
+              "filepath": "assets/images/spritesheets/tileset1.png",
+              "width": 96,
+              "height": 144
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 0.5555556
+              },
+              {
+                "x": 1.0,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.5555556
+              }
+            ]
+          },
+          "uid": 21
+        }
+      }
+    ],
+    "doSerialization": true,
+    "isDead": false
+  },
+  {
+    "uid": 467,
+    "name": "Sprite_Object_Gen",
+    "components": [
+      {
+        "type": "jade.Transform",
+        "properties": {
+          "position": {
+            "x": 5.625,
+            "y": 0.375
+          },
+          "scale": {
+            "x": 0.25,
+            "y": 0.25
+          },
+          "rotation": 0.0,
+          "zIndex": 0,
+          "uid": 20
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "width": 16.0,
+            "height": 16.0,
+            "texture": {
+              "filepath": "assets/images/spritesheets/tileset1.png",
+              "width": 96,
+              "height": 144
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 0.5555556
+              },
+              {
+                "x": 1.0,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.5555556
+              }
+            ]
+          },
+          "uid": 21
+        }
+      }
+    ],
+    "doSerialization": true,
+    "isDead": false
+  },
+  {
+    "uid": 468,
+    "name": "Sprite_Object_Gen",
+    "components": [
+      {
+        "type": "jade.Transform",
+        "properties": {
+          "position": {
+            "x": 5.625,
+            "y": 0.375
+          },
+          "scale": {
+            "x": 0.25,
+            "y": 0.25
+          },
+          "rotation": 0.0,
+          "zIndex": 0,
+          "uid": 20
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "width": 16.0,
+            "height": 16.0,
+            "texture": {
+              "filepath": "assets/images/spritesheets/tileset1.png",
+              "width": 96,
+              "height": 144
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 0.5555556
+              },
+              {
+                "x": 1.0,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.5555556
+              }
+            ]
+          },
+          "uid": 21
+        }
+      }
+    ],
+    "doSerialization": true,
+    "isDead": false
+  },
+  {
+    "uid": 469,
+    "name": "Sprite_Object_Gen",
+    "components": [
+      {
+        "type": "jade.Transform",
+        "properties": {
+          "position": {
+            "x": 5.625,
+            "y": 0.375
+          },
+          "scale": {
+            "x": 0.25,
+            "y": 0.25
+          },
+          "rotation": 0.0,
+          "zIndex": 0,
+          "uid": 20
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "width": 16.0,
+            "height": 16.0,
+            "texture": {
+              "filepath": "assets/images/spritesheets/tileset1.png",
+              "width": 96,
+              "height": 144
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 0.5555556
+              },
+              {
+                "x": 1.0,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.5555556
+              }
+            ]
+          },
+          "uid": 21
+        }
+      }
+    ],
+    "doSerialization": true,
+    "isDead": false
+  },
+  {
+    "uid": 470,
+    "name": "Sprite_Object_Gen",
+    "components": [
+      {
+        "type": "jade.Transform",
+        "properties": {
+          "position": {
+            "x": 5.625,
+            "y": 0.375
+          },
+          "scale": {
+            "x": 0.25,
+            "y": 0.25
+          },
+          "rotation": 0.0,
+          "zIndex": 0,
+          "uid": 20
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "width": 16.0,
+            "height": 16.0,
+            "texture": {
+              "filepath": "assets/images/spritesheets/tileset1.png",
+              "width": 96,
+              "height": 144
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 0.5555556
+              },
+              {
+                "x": 1.0,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.5555556
+              }
+            ]
+          },
+          "uid": 21
+        }
+      }
+    ],
+    "doSerialization": true,
+    "isDead": false
+  },
+  {
+    "uid": 471,
+    "name": "Sprite_Object_Gen",
+    "components": [
+      {
+        "type": "jade.Transform",
+        "properties": {
+          "position": {
+            "x": 5.875,
+            "y": 0.375
+          },
+          "scale": {
+            "x": 0.25,
+            "y": 0.25
+          },
+          "rotation": 0.0,
+          "zIndex": 0,
+          "uid": 20
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "width": 16.0,
+            "height": 16.0,
+            "texture": {
+              "filepath": "assets/images/spritesheets/tileset1.png",
+              "width": 96,
+              "height": 144
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 0.5555556
+              },
+              {
+                "x": 1.0,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.5555556
+              }
+            ]
+          },
+          "uid": 21
+        }
+      }
+    ],
+    "doSerialization": true,
+    "isDead": false
+  },
+  {
+    "uid": 472,
+    "name": "Sprite_Object_Gen",
+    "components": [
+      {
+        "type": "jade.Transform",
+        "properties": {
+          "position": {
+            "x": 5.875,
+            "y": 0.375
+          },
+          "scale": {
+            "x": 0.25,
+            "y": 0.25
+          },
+          "rotation": 0.0,
+          "zIndex": 0,
+          "uid": 20
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "width": 16.0,
+            "height": 16.0,
+            "texture": {
+              "filepath": "assets/images/spritesheets/tileset1.png",
+              "width": 96,
+              "height": 144
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 0.5555556
+              },
+              {
+                "x": 1.0,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.5555556
+              }
+            ]
+          },
+          "uid": 21
+        }
+      }
+    ],
+    "doSerialization": true,
+    "isDead": false
+  },
+  {
+    "uid": 473,
+    "name": "Sprite_Object_Gen",
+    "components": [
+      {
+        "type": "jade.Transform",
+        "properties": {
+          "position": {
+            "x": 5.875,
+            "y": 0.375
+          },
+          "scale": {
+            "x": 0.25,
+            "y": 0.25
+          },
+          "rotation": 0.0,
+          "zIndex": 0,
+          "uid": 20
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "width": 16.0,
+            "height": 16.0,
+            "texture": {
+              "filepath": "assets/images/spritesheets/tileset1.png",
+              "width": 96,
+              "height": 144
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 0.5555556
+              },
+              {
+                "x": 1.0,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.5555556
+              }
+            ]
+          },
+          "uid": 21
+        }
+      }
+    ],
+    "doSerialization": true,
+    "isDead": false
+  },
+  {
+    "uid": 474,
+    "name": "Sprite_Object_Gen",
+    "components": [
+      {
+        "type": "jade.Transform",
+        "properties": {
+          "position": {
+            "x": 5.875,
+            "y": 0.375
+          },
+          "scale": {
+            "x": 0.25,
+            "y": 0.25
+          },
+          "rotation": 0.0,
+          "zIndex": 0,
+          "uid": 20
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "width": 16.0,
+            "height": 16.0,
+            "texture": {
+              "filepath": "assets/images/spritesheets/tileset1.png",
+              "width": 96,
+              "height": 144
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 0.5555556
+              },
+              {
+                "x": 1.0,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.5555556
+              }
+            ]
+          },
+          "uid": 21
+        }
+      }
+    ],
+    "doSerialization": true,
+    "isDead": false
+  },
+  {
+    "uid": 475,
+    "name": "Sprite_Object_Gen",
+    "components": [
+      {
+        "type": "jade.Transform",
+        "properties": {
+          "position": {
+            "x": 5.875,
+            "y": 0.375
+          },
+          "scale": {
+            "x": 0.25,
+            "y": 0.25
+          },
+          "rotation": 0.0,
+          "zIndex": 0,
+          "uid": 20
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "width": 16.0,
+            "height": 16.0,
+            "texture": {
+              "filepath": "assets/images/spritesheets/tileset1.png",
+              "width": 96,
+              "height": 144
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 0.5555556
+              },
+              {
+                "x": 1.0,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.5555556
+              }
+            ]
+          },
+          "uid": 21
+        }
+      }
+    ],
+    "doSerialization": true,
+    "isDead": false
+  },
+  {
+    "uid": 476,
+    "name": "Sprite_Object_Gen",
+    "components": [
+      {
+        "type": "jade.Transform",
+        "properties": {
+          "position": {
+            "x": 5.875,
+            "y": 0.375
+          },
+          "scale": {
+            "x": 0.25,
+            "y": 0.25
+          },
+          "rotation": 0.0,
+          "zIndex": 0,
+          "uid": 20
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "width": 16.0,
+            "height": 16.0,
+            "texture": {
+              "filepath": "assets/images/spritesheets/tileset1.png",
+              "width": 96,
+              "height": 144
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 0.5555556
+              },
+              {
+                "x": 1.0,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.5555556
+              }
+            ]
+          },
+          "uid": 21
+        }
+      }
+    ],
+    "doSerialization": true,
+    "isDead": false
+  },
+  {
+    "uid": 477,
+    "name": "Sprite_Object_Gen",
+    "components": [
+      {
+        "type": "jade.Transform",
+        "properties": {
+          "position": {
+            "x": 5.875,
+            "y": 0.375
+          },
+          "scale": {
+            "x": 0.25,
+            "y": 0.25
+          },
+          "rotation": 0.0,
+          "zIndex": 0,
+          "uid": 20
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "width": 16.0,
+            "height": 16.0,
+            "texture": {
+              "filepath": "assets/images/spritesheets/tileset1.png",
+              "width": 96,
+              "height": 144
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 0.5555556
+              },
+              {
+                "x": 1.0,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.5555556
+              }
+            ]
+          },
+          "uid": 21
+        }
+      }
+    ],
+    "doSerialization": true,
+    "isDead": false
+  },
+  {
+    "uid": 478,
+    "name": "Sprite_Object_Gen",
+    "components": [
+      {
+        "type": "jade.Transform",
+        "properties": {
+          "position": {
+            "x": 0.125,
+            "y": 0.125
+          },
+          "scale": {
+            "x": 0.25,
+            "y": 0.25
+          },
+          "rotation": 0.0,
+          "zIndex": 0,
+          "uid": 20
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "width": 16.0,
+            "height": 16.0,
+            "texture": {
+              "filepath": "assets/images/spritesheets/tileset1.png",
+              "width": 96,
+              "height": 144
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 0.5555556
+              },
+              {
+                "x": 1.0,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.5555556
+              }
+            ]
+          },
+          "uid": 21
+        }
+      }
+    ],
+    "doSerialization": true,
+    "isDead": false
+  },
+  {
+    "uid": 479,
+    "name": "Sprite_Object_Gen",
+    "components": [
+      {
+        "type": "jade.Transform",
+        "properties": {
+          "position": {
+            "x": 0.125,
+            "y": 0.125
+          },
+          "scale": {
+            "x": 0.25,
+            "y": 0.25
+          },
+          "rotation": 0.0,
+          "zIndex": 0,
+          "uid": 20
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "width": 16.0,
+            "height": 16.0,
+            "texture": {
+              "filepath": "assets/images/spritesheets/tileset1.png",
+              "width": 96,
+              "height": 144
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 0.5555556
+              },
+              {
+                "x": 1.0,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.5555556
+              }
+            ]
+          },
+          "uid": 21
+        }
+      }
+    ],
+    "doSerialization": true,
+    "isDead": false
+  },
+  {
+    "uid": 480,
+    "name": "Sprite_Object_Gen",
+    "components": [
+      {
+        "type": "jade.Transform",
+        "properties": {
+          "position": {
+            "x": 0.375,
+            "y": 0.125
+          },
+          "scale": {
+            "x": 0.25,
+            "y": 0.25
+          },
+          "rotation": 0.0,
+          "zIndex": 0,
+          "uid": 20
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "width": 16.0,
+            "height": 16.0,
+            "texture": {
+              "filepath": "assets/images/spritesheets/tileset1.png",
+              "width": 96,
+              "height": 144
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 0.5555556
+              },
+              {
+                "x": 1.0,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.5555556
+              }
+            ]
+          },
+          "uid": 21
+        }
+      }
+    ],
+    "doSerialization": true,
+    "isDead": false
+  },
+  {
+    "uid": 481,
+    "name": "Sprite_Object_Gen",
+    "components": [
+      {
+        "type": "jade.Transform",
+        "properties": {
+          "position": {
+            "x": 0.625,
+            "y": 0.125
+          },
+          "scale": {
+            "x": 0.25,
+            "y": 0.25
+          },
+          "rotation": 0.0,
+          "zIndex": 0,
+          "uid": 20
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "width": 16.0,
+            "height": 16.0,
+            "texture": {
+              "filepath": "assets/images/spritesheets/tileset1.png",
+              "width": 96,
+              "height": 144
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 0.5555556
+              },
+              {
+                "x": 1.0,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.5555556
+              }
+            ]
+          },
+          "uid": 21
+        }
+      }
+    ],
+    "doSerialization": true,
+    "isDead": false
+  },
+  {
+    "uid": 482,
+    "name": "Sprite_Object_Gen",
+    "components": [
+      {
+        "type": "jade.Transform",
+        "properties": {
+          "position": {
+            "x": 0.625,
+            "y": 0.125
+          },
+          "scale": {
+            "x": 0.25,
+            "y": 0.25
+          },
+          "rotation": 0.0,
+          "zIndex": 0,
+          "uid": 20
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "width": 16.0,
+            "height": 16.0,
+            "texture": {
+              "filepath": "assets/images/spritesheets/tileset1.png",
+              "width": 96,
+              "height": 144
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 0.5555556
+              },
+              {
+                "x": 1.0,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.5555556
+              }
+            ]
+          },
+          "uid": 21
+        }
+      }
+    ],
+    "doSerialization": true,
+    "isDead": false
+  },
+  {
+    "uid": 483,
+    "name": "Sprite_Object_Gen",
+    "components": [
+      {
+        "type": "jade.Transform",
+        "properties": {
+          "position": {
+            "x": 0.625,
+            "y": 0.125
+          },
+          "scale": {
+            "x": 0.25,
+            "y": 0.25
+          },
+          "rotation": 0.0,
+          "zIndex": 0,
+          "uid": 20
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "width": 16.0,
+            "height": 16.0,
+            "texture": {
+              "filepath": "assets/images/spritesheets/tileset1.png",
+              "width": 96,
+              "height": 144
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 0.5555556
+              },
+              {
+                "x": 1.0,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.5555556
+              }
+            ]
+          },
+          "uid": 21
+        }
+      }
+    ],
+    "doSerialization": true,
+    "isDead": false
+  },
+  {
+    "uid": 484,
+    "name": "Sprite_Object_Gen",
+    "components": [
+      {
+        "type": "jade.Transform",
+        "properties": {
+          "position": {
+            "x": 0.875,
+            "y": 0.125
+          },
+          "scale": {
+            "x": 0.25,
+            "y": 0.25
+          },
+          "rotation": 0.0,
+          "zIndex": 0,
+          "uid": 20
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "width": 16.0,
+            "height": 16.0,
+            "texture": {
+              "filepath": "assets/images/spritesheets/tileset1.png",
+              "width": 96,
+              "height": 144
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 0.5555556
+              },
+              {
+                "x": 1.0,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.5555556
+              }
+            ]
+          },
+          "uid": 21
+        }
+      }
+    ],
+    "doSerialization": true,
+    "isDead": false
+  },
+  {
+    "uid": 485,
+    "name": "Sprite_Object_Gen",
+    "components": [
+      {
+        "type": "jade.Transform",
+        "properties": {
+          "position": {
+            "x": 0.875,
+            "y": 0.125
+          },
+          "scale": {
+            "x": 0.25,
+            "y": 0.25
+          },
+          "rotation": 0.0,
+          "zIndex": 0,
+          "uid": 20
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "width": 16.0,
+            "height": 16.0,
+            "texture": {
+              "filepath": "assets/images/spritesheets/tileset1.png",
+              "width": 96,
+              "height": 144
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 0.5555556
+              },
+              {
+                "x": 1.0,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.5555556
+              }
+            ]
+          },
+          "uid": 21
+        }
+      }
+    ],
+    "doSerialization": true,
+    "isDead": false
+  },
+  {
+    "uid": 486,
+    "name": "Sprite_Object_Gen",
+    "components": [
+      {
+        "type": "jade.Transform",
+        "properties": {
+          "position": {
+            "x": 0.875,
+            "y": 0.125
+          },
+          "scale": {
+            "x": 0.25,
+            "y": 0.25
+          },
+          "rotation": 0.0,
+          "zIndex": 0,
+          "uid": 20
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "width": 16.0,
+            "height": 16.0,
+            "texture": {
+              "filepath": "assets/images/spritesheets/tileset1.png",
+              "width": 96,
+              "height": 144
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 0.5555556
+              },
+              {
+                "x": 1.0,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.5555556
+              }
+            ]
+          },
+          "uid": 21
+        }
+      }
+    ],
+    "doSerialization": true,
+    "isDead": false
+  },
+  {
+    "uid": 487,
+    "name": "Sprite_Object_Gen",
+    "components": [
+      {
+        "type": "jade.Transform",
+        "properties": {
+          "position": {
+            "x": 1.125,
+            "y": 0.125
+          },
+          "scale": {
+            "x": 0.25,
+            "y": 0.25
+          },
+          "rotation": 0.0,
+          "zIndex": 0,
+          "uid": 20
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "width": 16.0,
+            "height": 16.0,
+            "texture": {
+              "filepath": "assets/images/spritesheets/tileset1.png",
+              "width": 96,
+              "height": 144
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 0.5555556
+              },
+              {
+                "x": 1.0,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.5555556
+              }
+            ]
+          },
+          "uid": 21
+        }
+      }
+    ],
+    "doSerialization": true,
+    "isDead": false
+  },
+  {
+    "uid": 488,
+    "name": "Sprite_Object_Gen",
+    "components": [
+      {
+        "type": "jade.Transform",
+        "properties": {
+          "position": {
+            "x": 1.125,
+            "y": 0.125
+          },
+          "scale": {
+            "x": 0.25,
+            "y": 0.25
+          },
+          "rotation": 0.0,
+          "zIndex": 0,
+          "uid": 20
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "width": 16.0,
+            "height": 16.0,
+            "texture": {
+              "filepath": "assets/images/spritesheets/tileset1.png",
+              "width": 96,
+              "height": 144
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 0.5555556
+              },
+              {
+                "x": 1.0,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.5555556
+              }
+            ]
+          },
+          "uid": 21
+        }
+      }
+    ],
+    "doSerialization": true,
+    "isDead": false
+  },
+  {
+    "uid": 489,
+    "name": "Sprite_Object_Gen",
+    "components": [
+      {
+        "type": "jade.Transform",
+        "properties": {
+          "position": {
+            "x": 1.375,
+            "y": 0.125
+          },
+          "scale": {
+            "x": 0.25,
+            "y": 0.25
+          },
+          "rotation": 0.0,
+          "zIndex": 0,
+          "uid": 20
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "width": 16.0,
+            "height": 16.0,
+            "texture": {
+              "filepath": "assets/images/spritesheets/tileset1.png",
+              "width": 96,
+              "height": 144
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 0.5555556
+              },
+              {
+                "x": 1.0,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.5555556
+              }
+            ]
+          },
+          "uid": 21
+        }
+      }
+    ],
+    "doSerialization": true,
+    "isDead": false
+  },
+  {
+    "uid": 490,
+    "name": "Sprite_Object_Gen",
+    "components": [
+      {
+        "type": "jade.Transform",
+        "properties": {
+          "position": {
+            "x": 1.375,
+            "y": 0.125
+          },
+          "scale": {
+            "x": 0.25,
+            "y": 0.25
+          },
+          "rotation": 0.0,
+          "zIndex": 0,
+          "uid": 20
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "width": 16.0,
+            "height": 16.0,
+            "texture": {
+              "filepath": "assets/images/spritesheets/tileset1.png",
+              "width": 96,
+              "height": 144
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 0.5555556
+              },
+              {
+                "x": 1.0,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.5555556
+              }
+            ]
+          },
+          "uid": 21
+        }
+      }
+    ],
+    "doSerialization": true,
+    "isDead": false
+  },
+  {
+    "uid": 491,
+    "name": "Sprite_Object_Gen",
+    "components": [
+      {
+        "type": "jade.Transform",
+        "properties": {
+          "position": {
+            "x": 1.625,
+            "y": 0.125
+          },
+          "scale": {
+            "x": 0.25,
+            "y": 0.25
+          },
+          "rotation": 0.0,
+          "zIndex": 0,
+          "uid": 20
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "width": 16.0,
+            "height": 16.0,
+            "texture": {
+              "filepath": "assets/images/spritesheets/tileset1.png",
+              "width": 96,
+              "height": 144
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 0.5555556
+              },
+              {
+                "x": 1.0,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.5555556
+              }
+            ]
+          },
+          "uid": 21
+        }
+      }
+    ],
+    "doSerialization": true,
+    "isDead": false
+  },
+  {
+    "uid": 492,
+    "name": "Sprite_Object_Gen",
+    "components": [
+      {
+        "type": "jade.Transform",
+        "properties": {
+          "position": {
+            "x": 1.625,
+            "y": 0.125
+          },
+          "scale": {
+            "x": 0.25,
+            "y": 0.25
+          },
+          "rotation": 0.0,
+          "zIndex": 0,
+          "uid": 20
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "width": 16.0,
+            "height": 16.0,
+            "texture": {
+              "filepath": "assets/images/spritesheets/tileset1.png",
+              "width": 96,
+              "height": 144
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 0.5555556
+              },
+              {
+                "x": 1.0,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.5555556
+              }
+            ]
+          },
+          "uid": 21
+        }
+      }
+    ],
+    "doSerialization": true,
+    "isDead": false
+  },
+  {
+    "uid": 493,
+    "name": "Sprite_Object_Gen",
+    "components": [
+      {
+        "type": "jade.Transform",
+        "properties": {
+          "position": {
+            "x": 1.875,
+            "y": 0.125
+          },
+          "scale": {
+            "x": 0.25,
+            "y": 0.25
+          },
+          "rotation": 0.0,
+          "zIndex": 0,
+          "uid": 20
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "width": 16.0,
+            "height": 16.0,
+            "texture": {
+              "filepath": "assets/images/spritesheets/tileset1.png",
+              "width": 96,
+              "height": 144
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 0.5555556
+              },
+              {
+                "x": 1.0,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.5555556
+              }
+            ]
+          },
+          "uid": 21
+        }
+      }
+    ],
+    "doSerialization": true,
+    "isDead": false
+  },
+  {
+    "uid": 494,
+    "name": "Sprite_Object_Gen",
+    "components": [
+      {
+        "type": "jade.Transform",
+        "properties": {
+          "position": {
+            "x": 1.875,
+            "y": 0.125
+          },
+          "scale": {
+            "x": 0.25,
+            "y": 0.25
+          },
+          "rotation": 0.0,
+          "zIndex": 0,
+          "uid": 20
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "width": 16.0,
+            "height": 16.0,
+            "texture": {
+              "filepath": "assets/images/spritesheets/tileset1.png",
+              "width": 96,
+              "height": 144
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 0.5555556
+              },
+              {
+                "x": 1.0,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.5555556
+              }
+            ]
+          },
+          "uid": 21
+        }
+      }
+    ],
+    "doSerialization": true,
+    "isDead": false
+  },
+  {
+    "uid": 495,
+    "name": "Sprite_Object_Gen",
+    "components": [
+      {
+        "type": "jade.Transform",
+        "properties": {
+          "position": {
+            "x": 2.125,
+            "y": 0.125
+          },
+          "scale": {
+            "x": 0.25,
+            "y": 0.25
+          },
+          "rotation": 0.0,
+          "zIndex": 0,
+          "uid": 20
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "width": 16.0,
+            "height": 16.0,
+            "texture": {
+              "filepath": "assets/images/spritesheets/tileset1.png",
+              "width": 96,
+              "height": 144
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 0.5555556
+              },
+              {
+                "x": 1.0,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.5555556
+              }
+            ]
+          },
+          "uid": 21
+        }
+      }
+    ],
+    "doSerialization": true,
+    "isDead": false
+  },
+  {
+    "uid": 496,
+    "name": "Sprite_Object_Gen",
+    "components": [
+      {
+        "type": "jade.Transform",
+        "properties": {
+          "position": {
+            "x": 2.375,
+            "y": 0.125
+          },
+          "scale": {
+            "x": 0.25,
+            "y": 0.25
+          },
+          "rotation": 0.0,
+          "zIndex": 0,
+          "uid": 20
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "width": 16.0,
+            "height": 16.0,
+            "texture": {
+              "filepath": "assets/images/spritesheets/tileset1.png",
+              "width": 96,
+              "height": 144
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 0.5555556
+              },
+              {
+                "x": 1.0,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.5555556
+              }
+            ]
+          },
+          "uid": 21
+        }
+      }
+    ],
+    "doSerialization": true,
+    "isDead": false
+  },
+  {
+    "uid": 497,
+    "name": "Sprite_Object_Gen",
+    "components": [
+      {
+        "type": "jade.Transform",
+        "properties": {
+          "position": {
+            "x": 2.375,
+            "y": 0.125
+          },
+          "scale": {
+            "x": 0.25,
+            "y": 0.25
+          },
+          "rotation": 0.0,
+          "zIndex": 0,
+          "uid": 20
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "width": 16.0,
+            "height": 16.0,
+            "texture": {
+              "filepath": "assets/images/spritesheets/tileset1.png",
+              "width": 96,
+              "height": 144
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 0.5555556
+              },
+              {
+                "x": 1.0,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.5555556
+              }
+            ]
+          },
+          "uid": 21
+        }
+      }
+    ],
+    "doSerialization": true,
+    "isDead": false
+  },
+  {
+    "uid": 498,
+    "name": "Sprite_Object_Gen",
+    "components": [
+      {
+        "type": "jade.Transform",
+        "properties": {
+          "position": {
+            "x": 2.375,
+            "y": 0.125
+          },
+          "scale": {
+            "x": 0.25,
+            "y": 0.25
+          },
+          "rotation": 0.0,
+          "zIndex": 0,
+          "uid": 20
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "width": 16.0,
+            "height": 16.0,
+            "texture": {
+              "filepath": "assets/images/spritesheets/tileset1.png",
+              "width": 96,
+              "height": 144
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 0.5555556
+              },
+              {
+                "x": 1.0,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.5555556
+              }
+            ]
+          },
+          "uid": 21
+        }
+      }
+    ],
+    "doSerialization": true,
+    "isDead": false
+  },
+  {
+    "uid": 499,
+    "name": "Sprite_Object_Gen",
+    "components": [
+      {
+        "type": "jade.Transform",
+        "properties": {
+          "position": {
+            "x": 2.625,
+            "y": 0.125
+          },
+          "scale": {
+            "x": 0.25,
+            "y": 0.25
+          },
+          "rotation": 0.0,
+          "zIndex": 0,
+          "uid": 20
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "width": 16.0,
+            "height": 16.0,
+            "texture": {
+              "filepath": "assets/images/spritesheets/tileset1.png",
+              "width": 96,
+              "height": 144
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 0.5555556
+              },
+              {
+                "x": 1.0,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.5555556
+              }
+            ]
+          },
+          "uid": 21
+        }
+      }
+    ],
+    "doSerialization": true,
+    "isDead": false
+  },
+  {
+    "uid": 500,
+    "name": "Sprite_Object_Gen",
+    "components": [
+      {
+        "type": "jade.Transform",
+        "properties": {
+          "position": {
+            "x": 2.625,
+            "y": 0.125
+          },
+          "scale": {
+            "x": 0.25,
+            "y": 0.25
+          },
+          "rotation": 0.0,
+          "zIndex": 0,
+          "uid": 20
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "width": 16.0,
+            "height": 16.0,
+            "texture": {
+              "filepath": "assets/images/spritesheets/tileset1.png",
+              "width": 96,
+              "height": 144
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 0.5555556
+              },
+              {
+                "x": 1.0,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.5555556
+              }
+            ]
+          },
+          "uid": 21
+        }
+      }
+    ],
+    "doSerialization": true,
+    "isDead": false
+  },
+  {
+    "uid": 501,
+    "name": "Sprite_Object_Gen",
+    "components": [
+      {
+        "type": "jade.Transform",
+        "properties": {
+          "position": {
+            "x": 2.875,
+            "y": 0.125
+          },
+          "scale": {
+            "x": 0.25,
+            "y": 0.25
+          },
+          "rotation": 0.0,
+          "zIndex": 0,
+          "uid": 20
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "width": 16.0,
+            "height": 16.0,
+            "texture": {
+              "filepath": "assets/images/spritesheets/tileset1.png",
+              "width": 96,
+              "height": 144
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 0.5555556
+              },
+              {
+                "x": 1.0,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.5555556
+              }
+            ]
+          },
+          "uid": 21
+        }
+      }
+    ],
+    "doSerialization": true,
+    "isDead": false
+  },
+  {
+    "uid": 502,
+    "name": "Sprite_Object_Gen",
+    "components": [
+      {
+        "type": "jade.Transform",
+        "properties": {
+          "position": {
+            "x": 2.875,
+            "y": 0.125
+          },
+          "scale": {
+            "x": 0.25,
+            "y": 0.25
+          },
+          "rotation": 0.0,
+          "zIndex": 0,
+          "uid": 20
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "width": 16.0,
+            "height": 16.0,
+            "texture": {
+              "filepath": "assets/images/spritesheets/tileset1.png",
+              "width": 96,
+              "height": 144
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 0.5555556
+              },
+              {
+                "x": 1.0,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.5555556
+              }
+            ]
+          },
+          "uid": 21
+        }
+      }
+    ],
+    "doSerialization": true,
+    "isDead": false
+  },
+  {
+    "uid": 503,
+    "name": "Sprite_Object_Gen",
+    "components": [
+      {
+        "type": "jade.Transform",
+        "properties": {
+          "position": {
+            "x": 3.125,
+            "y": 0.125
+          },
+          "scale": {
+            "x": 0.25,
+            "y": 0.25
+          },
+          "rotation": 0.0,
+          "zIndex": 0,
+          "uid": 20
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "width": 16.0,
+            "height": 16.0,
+            "texture": {
+              "filepath": "assets/images/spritesheets/tileset1.png",
+              "width": 96,
+              "height": 144
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 0.5555556
+              },
+              {
+                "x": 1.0,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.5555556
+              }
+            ]
+          },
+          "uid": 21
+        }
+      }
+    ],
+    "doSerialization": true,
+    "isDead": false
+  },
+  {
+    "uid": 504,
+    "name": "Sprite_Object_Gen",
+    "components": [
+      {
+        "type": "jade.Transform",
+        "properties": {
+          "position": {
+            "x": 3.125,
+            "y": 0.125
+          },
+          "scale": {
+            "x": 0.25,
+            "y": 0.25
+          },
+          "rotation": 0.0,
+          "zIndex": 0,
+          "uid": 20
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "width": 16.0,
+            "height": 16.0,
+            "texture": {
+              "filepath": "assets/images/spritesheets/tileset1.png",
+              "width": 96,
+              "height": 144
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 0.5555556
+              },
+              {
+                "x": 1.0,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.5555556
+              }
+            ]
+          },
+          "uid": 21
+        }
+      }
+    ],
+    "doSerialization": true,
+    "isDead": false
+  },
+  {
+    "uid": 505,
+    "name": "Sprite_Object_Gen",
+    "components": [
+      {
+        "type": "jade.Transform",
+        "properties": {
+          "position": {
+            "x": 3.375,
+            "y": 0.125
+          },
+          "scale": {
+            "x": 0.25,
+            "y": 0.25
+          },
+          "rotation": 0.0,
+          "zIndex": 0,
+          "uid": 20
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "width": 16.0,
+            "height": 16.0,
+            "texture": {
+              "filepath": "assets/images/spritesheets/tileset1.png",
+              "width": 96,
+              "height": 144
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 0.5555556
+              },
+              {
+                "x": 1.0,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.5555556
+              }
+            ]
+          },
+          "uid": 21
+        }
+      }
+    ],
+    "doSerialization": true,
+    "isDead": false
+  },
+  {
+    "uid": 506,
+    "name": "Sprite_Object_Gen",
+    "components": [
+      {
+        "type": "jade.Transform",
+        "properties": {
+          "position": {
+            "x": 3.375,
+            "y": 0.125
+          },
+          "scale": {
+            "x": 0.25,
+            "y": 0.25
+          },
+          "rotation": 0.0,
+          "zIndex": 0,
+          "uid": 20
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "width": 16.0,
+            "height": 16.0,
+            "texture": {
+              "filepath": "assets/images/spritesheets/tileset1.png",
+              "width": 96,
+              "height": 144
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 0.5555556
+              },
+              {
+                "x": 1.0,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.5555556
+              }
+            ]
+          },
+          "uid": 21
+        }
+      }
+    ],
+    "doSerialization": true,
+    "isDead": false
+  },
+  {
+    "uid": 507,
+    "name": "Sprite_Object_Gen",
+    "components": [
+      {
+        "type": "jade.Transform",
+        "properties": {
+          "position": {
+            "x": 3.375,
+            "y": 0.125
+          },
+          "scale": {
+            "x": 0.25,
+            "y": 0.25
+          },
+          "rotation": 0.0,
+          "zIndex": 0,
+          "uid": 20
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "width": 16.0,
+            "height": 16.0,
+            "texture": {
+              "filepath": "assets/images/spritesheets/tileset1.png",
+              "width": 96,
+              "height": 144
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 0.5555556
+              },
+              {
+                "x": 1.0,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.5555556
+              }
+            ]
+          },
+          "uid": 21
+        }
+      }
+    ],
+    "doSerialization": true,
+    "isDead": false
+  },
+  {
+    "uid": 508,
+    "name": "Sprite_Object_Gen",
+    "components": [
+      {
+        "type": "jade.Transform",
+        "properties": {
+          "position": {
+            "x": 3.625,
+            "y": 0.125
+          },
+          "scale": {
+            "x": 0.25,
+            "y": 0.25
+          },
+          "rotation": 0.0,
+          "zIndex": 0,
+          "uid": 20
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "width": 16.0,
+            "height": 16.0,
+            "texture": {
+              "filepath": "assets/images/spritesheets/tileset1.png",
+              "width": 96,
+              "height": 144
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 0.5555556
+              },
+              {
+                "x": 1.0,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.5555556
+              }
+            ]
+          },
+          "uid": 21
+        }
+      }
+    ],
+    "doSerialization": true,
+    "isDead": false
+  },
+  {
+    "uid": 509,
+    "name": "Sprite_Object_Gen",
+    "components": [
+      {
+        "type": "jade.Transform",
+        "properties": {
+          "position": {
+            "x": 3.625,
+            "y": 0.125
+          },
+          "scale": {
+            "x": 0.25,
+            "y": 0.25
+          },
+          "rotation": 0.0,
+          "zIndex": 0,
+          "uid": 20
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "width": 16.0,
+            "height": 16.0,
+            "texture": {
+              "filepath": "assets/images/spritesheets/tileset1.png",
+              "width": 96,
+              "height": 144
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 0.5555556
+              },
+              {
+                "x": 1.0,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.5555556
+              }
+            ]
+          },
+          "uid": 21
+        }
+      }
+    ],
+    "doSerialization": true,
+    "isDead": false
+  },
+  {
+    "uid": 510,
+    "name": "Sprite_Object_Gen",
+    "components": [
+      {
+        "type": "jade.Transform",
+        "properties": {
+          "position": {
+            "x": 3.875,
+            "y": 0.125
+          },
+          "scale": {
+            "x": 0.25,
+            "y": 0.25
+          },
+          "rotation": 0.0,
+          "zIndex": 0,
+          "uid": 20
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "width": 16.0,
+            "height": 16.0,
+            "texture": {
+              "filepath": "assets/images/spritesheets/tileset1.png",
+              "width": 96,
+              "height": 144
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 0.5555556
+              },
+              {
+                "x": 1.0,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.5555556
+              }
+            ]
+          },
+          "uid": 21
+        }
+      }
+    ],
+    "doSerialization": true,
+    "isDead": false
+  },
+  {
+    "uid": 511,
+    "name": "Sprite_Object_Gen",
+    "components": [
+      {
+        "type": "jade.Transform",
+        "properties": {
+          "position": {
+            "x": 4.125,
+            "y": 0.125
+          },
+          "scale": {
+            "x": 0.25,
+            "y": 0.25
+          },
+          "rotation": 0.0,
+          "zIndex": 0,
+          "uid": 20
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "width": 16.0,
+            "height": 16.0,
+            "texture": {
+              "filepath": "assets/images/spritesheets/tileset1.png",
+              "width": 96,
+              "height": 144
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 0.5555556
+              },
+              {
+                "x": 1.0,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.5555556
+              }
+            ]
+          },
+          "uid": 21
+        }
+      }
+    ],
+    "doSerialization": true,
+    "isDead": false
+  },
+  {
+    "uid": 512,
+    "name": "Sprite_Object_Gen",
+    "components": [
+      {
+        "type": "jade.Transform",
+        "properties": {
+          "position": {
+            "x": 4.125,
+            "y": 0.125
+          },
+          "scale": {
+            "x": 0.25,
+            "y": 0.25
+          },
+          "rotation": 0.0,
+          "zIndex": 0,
+          "uid": 20
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "width": 16.0,
+            "height": 16.0,
+            "texture": {
+              "filepath": "assets/images/spritesheets/tileset1.png",
+              "width": 96,
+              "height": 144
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 0.5555556
+              },
+              {
+                "x": 1.0,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.5555556
+              }
+            ]
+          },
+          "uid": 21
+        }
+      }
+    ],
+    "doSerialization": true,
+    "isDead": false
+  },
+  {
+    "uid": 513,
+    "name": "Sprite_Object_Gen",
+    "components": [
+      {
+        "type": "jade.Transform",
+        "properties": {
+          "position": {
+            "x": 4.125,
+            "y": 0.125
+          },
+          "scale": {
+            "x": 0.25,
+            "y": 0.25
+          },
+          "rotation": 0.0,
+          "zIndex": 0,
+          "uid": 20
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "width": 16.0,
+            "height": 16.0,
+            "texture": {
+              "filepath": "assets/images/spritesheets/tileset1.png",
+              "width": 96,
+              "height": 144
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 0.5555556
+              },
+              {
+                "x": 1.0,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.5555556
+              }
+            ]
+          },
+          "uid": 21
+        }
+      }
+    ],
+    "doSerialization": true,
+    "isDead": false
+  },
+  {
+    "uid": 514,
+    "name": "Sprite_Object_Gen",
+    "components": [
+      {
+        "type": "jade.Transform",
+        "properties": {
+          "position": {
+            "x": 4.375,
+            "y": 0.125
+          },
+          "scale": {
+            "x": 0.25,
+            "y": 0.25
+          },
+          "rotation": 0.0,
+          "zIndex": 0,
+          "uid": 20
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "width": 16.0,
+            "height": 16.0,
+            "texture": {
+              "filepath": "assets/images/spritesheets/tileset1.png",
+              "width": 96,
+              "height": 144
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 0.5555556
+              },
+              {
+                "x": 1.0,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.5555556
+              }
+            ]
+          },
+          "uid": 21
+        }
+      }
+    ],
+    "doSerialization": true,
+    "isDead": false
+  },
+  {
+    "uid": 515,
+    "name": "Sprite_Object_Gen",
+    "components": [
+      {
+        "type": "jade.Transform",
+        "properties": {
+          "position": {
+            "x": 4.375,
+            "y": 0.125
+          },
+          "scale": {
+            "x": 0.25,
+            "y": 0.25
+          },
+          "rotation": 0.0,
+          "zIndex": 0,
+          "uid": 20
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "width": 16.0,
+            "height": 16.0,
+            "texture": {
+              "filepath": "assets/images/spritesheets/tileset1.png",
+              "width": 96,
+              "height": 144
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 0.5555556
+              },
+              {
+                "x": 1.0,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.5555556
+              }
+            ]
+          },
+          "uid": 21
+        }
+      }
+    ],
+    "doSerialization": true,
+    "isDead": false
+  },
+  {
+    "uid": 516,
+    "name": "Sprite_Object_Gen",
+    "components": [
+      {
+        "type": "jade.Transform",
+        "properties": {
+          "position": {
+            "x": 4.375,
+            "y": 0.125
+          },
+          "scale": {
+            "x": 0.25,
+            "y": 0.25
+          },
+          "rotation": 0.0,
+          "zIndex": 0,
+          "uid": 20
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "width": 16.0,
+            "height": 16.0,
+            "texture": {
+              "filepath": "assets/images/spritesheets/tileset1.png",
+              "width": 96,
+              "height": 144
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 0.5555556
+              },
+              {
+                "x": 1.0,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.5555556
+              }
+            ]
+          },
+          "uid": 21
+        }
+      }
+    ],
+    "doSerialization": true,
+    "isDead": false
+  },
+  {
+    "uid": 517,
+    "name": "Sprite_Object_Gen",
+    "components": [
+      {
+        "type": "jade.Transform",
+        "properties": {
+          "position": {
+            "x": 4.625,
+            "y": 0.125
+          },
+          "scale": {
+            "x": 0.25,
+            "y": 0.25
+          },
+          "rotation": 0.0,
+          "zIndex": 0,
+          "uid": 20
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "width": 16.0,
+            "height": 16.0,
+            "texture": {
+              "filepath": "assets/images/spritesheets/tileset1.png",
+              "width": 96,
+              "height": 144
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 0.5555556
+              },
+              {
+                "x": 1.0,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.5555556
+              }
+            ]
+          },
+          "uid": 21
+        }
+      }
+    ],
+    "doSerialization": true,
+    "isDead": false
+  },
+  {
+    "uid": 518,
+    "name": "Sprite_Object_Gen",
+    "components": [
+      {
+        "type": "jade.Transform",
+        "properties": {
+          "position": {
+            "x": 4.875,
+            "y": 0.125
+          },
+          "scale": {
+            "x": 0.25,
+            "y": 0.25
+          },
+          "rotation": 0.0,
+          "zIndex": 0,
+          "uid": 20
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "width": 16.0,
+            "height": 16.0,
+            "texture": {
+              "filepath": "assets/images/spritesheets/tileset1.png",
+              "width": 96,
+              "height": 144
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 0.5555556
+              },
+              {
+                "x": 1.0,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.5555556
+              }
+            ]
+          },
+          "uid": 21
+        }
+      }
+    ],
+    "doSerialization": true,
+    "isDead": false
+  },
+  {
+    "uid": 519,
+    "name": "Sprite_Object_Gen",
+    "components": [
+      {
+        "type": "jade.Transform",
+        "properties": {
+          "position": {
+            "x": 4.875,
+            "y": 0.125
+          },
+          "scale": {
+            "x": 0.25,
+            "y": 0.25
+          },
+          "rotation": 0.0,
+          "zIndex": 0,
+          "uid": 20
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "width": 16.0,
+            "height": 16.0,
+            "texture": {
+              "filepath": "assets/images/spritesheets/tileset1.png",
+              "width": 96,
+              "height": 144
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 0.5555556
+              },
+              {
+                "x": 1.0,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.5555556
+              }
+            ]
+          },
+          "uid": 21
+        }
+      }
+    ],
+    "doSerialization": true,
+    "isDead": false
+  },
+  {
+    "uid": 520,
+    "name": "Sprite_Object_Gen",
+    "components": [
+      {
+        "type": "jade.Transform",
+        "properties": {
+          "position": {
+            "x": 4.875,
+            "y": 0.125
+          },
+          "scale": {
+            "x": 0.25,
+            "y": 0.25
+          },
+          "rotation": 0.0,
+          "zIndex": 0,
+          "uid": 20
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "width": 16.0,
+            "height": 16.0,
+            "texture": {
+              "filepath": "assets/images/spritesheets/tileset1.png",
+              "width": 96,
+              "height": 144
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 0.5555556
+              },
+              {
+                "x": 1.0,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.5555556
+              }
+            ]
+          },
+          "uid": 21
+        }
+      }
+    ],
+    "doSerialization": true,
+    "isDead": false
+  },
+  {
+    "uid": 521,
+    "name": "Sprite_Object_Gen",
+    "components": [
+      {
+        "type": "jade.Transform",
+        "properties": {
+          "position": {
+            "x": 5.125,
+            "y": 0.125
+          },
+          "scale": {
+            "x": 0.25,
+            "y": 0.25
+          },
+          "rotation": 0.0,
+          "zIndex": 0,
+          "uid": 20
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "width": 16.0,
+            "height": 16.0,
+            "texture": {
+              "filepath": "assets/images/spritesheets/tileset1.png",
+              "width": 96,
+              "height": 144
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 0.5555556
+              },
+              {
+                "x": 1.0,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.5555556
+              }
+            ]
+          },
+          "uid": 21
+        }
+      }
+    ],
+    "doSerialization": true,
+    "isDead": false
+  },
+  {
+    "uid": 522,
+    "name": "Sprite_Object_Gen",
+    "components": [
+      {
+        "type": "jade.Transform",
+        "properties": {
+          "position": {
+            "x": 5.125,
+            "y": 0.125
+          },
+          "scale": {
+            "x": 0.25,
+            "y": 0.25
+          },
+          "rotation": 0.0,
+          "zIndex": 0,
+          "uid": 20
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "width": 16.0,
+            "height": 16.0,
+            "texture": {
+              "filepath": "assets/images/spritesheets/tileset1.png",
+              "width": 96,
+              "height": 144
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 0.5555556
+              },
+              {
+                "x": 1.0,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.5555556
+              }
+            ]
+          },
+          "uid": 21
+        }
+      }
+    ],
+    "doSerialization": true,
+    "isDead": false
+  },
+  {
+    "uid": 523,
+    "name": "Sprite_Object_Gen",
+    "components": [
+      {
+        "type": "jade.Transform",
+        "properties": {
+          "position": {
+            "x": 5.375,
+            "y": 0.125
+          },
+          "scale": {
+            "x": 0.25,
+            "y": 0.25
+          },
+          "rotation": 0.0,
+          "zIndex": 0,
+          "uid": 20
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "width": 16.0,
+            "height": 16.0,
+            "texture": {
+              "filepath": "assets/images/spritesheets/tileset1.png",
+              "width": 96,
+              "height": 144
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 0.5555556
+              },
+              {
+                "x": 1.0,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.5555556
+              }
+            ]
+          },
+          "uid": 21
+        }
+      }
+    ],
+    "doSerialization": true,
+    "isDead": false
+  },
+  {
+    "uid": 524,
+    "name": "Sprite_Object_Gen",
+    "components": [
+      {
+        "type": "jade.Transform",
+        "properties": {
+          "position": {
+            "x": 5.375,
+            "y": 0.125
+          },
+          "scale": {
+            "x": 0.25,
+            "y": 0.25
+          },
+          "rotation": 0.0,
+          "zIndex": 0,
+          "uid": 20
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "width": 16.0,
+            "height": 16.0,
+            "texture": {
+              "filepath": "assets/images/spritesheets/tileset1.png",
+              "width": 96,
+              "height": 144
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 0.5555556
+              },
+              {
+                "x": 1.0,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.5555556
+              }
+            ]
+          },
+          "uid": 21
+        }
+      }
+    ],
+    "doSerialization": true,
+    "isDead": false
+  },
+  {
+    "uid": 525,
+    "name": "Sprite_Object_Gen",
+    "components": [
+      {
+        "type": "jade.Transform",
+        "properties": {
+          "position": {
+            "x": 5.625,
+            "y": 0.125
+          },
+          "scale": {
+            "x": 0.25,
+            "y": 0.25
+          },
+          "rotation": 0.0,
+          "zIndex": 0,
+          "uid": 20
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "width": 16.0,
+            "height": 16.0,
+            "texture": {
+              "filepath": "assets/images/spritesheets/tileset1.png",
+              "width": 96,
+              "height": 144
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 0.5555556
+              },
+              {
+                "x": 1.0,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.5555556
+              }
+            ]
+          },
+          "uid": 21
+        }
+      }
+    ],
+    "doSerialization": true,
+    "isDead": false
+  },
+  {
+    "uid": 526,
+    "name": "Sprite_Object_Gen",
+    "components": [
+      {
+        "type": "jade.Transform",
+        "properties": {
+          "position": {
+            "x": 5.625,
+            "y": 0.125
+          },
+          "scale": {
+            "x": 0.25,
+            "y": 0.25
+          },
+          "rotation": 0.0,
+          "zIndex": 0,
+          "uid": 20
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "width": 16.0,
+            "height": 16.0,
+            "texture": {
+              "filepath": "assets/images/spritesheets/tileset1.png",
+              "width": 96,
+              "height": 144
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 0.5555556
+              },
+              {
+                "x": 1.0,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.5555556
+              }
+            ]
+          },
+          "uid": 21
+        }
+      }
+    ],
+    "doSerialization": true,
+    "isDead": false
+  },
+  {
+    "uid": 527,
+    "name": "Sprite_Object_Gen",
+    "components": [
+      {
+        "type": "jade.Transform",
+        "properties": {
+          "position": {
+            "x": 5.625,
+            "y": 0.125
+          },
+          "scale": {
+            "x": 0.25,
+            "y": 0.25
+          },
+          "rotation": 0.0,
+          "zIndex": 0,
+          "uid": 20
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "width": 16.0,
+            "height": 16.0,
+            "texture": {
+              "filepath": "assets/images/spritesheets/tileset1.png",
+              "width": 96,
+              "height": 144
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 0.5555556
+              },
+              {
+                "x": 1.0,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.5555556
+              }
+            ]
+          },
+          "uid": 21
+        }
+      }
+    ],
+    "doSerialization": true,
+    "isDead": false
+  },
+  {
+    "uid": 528,
+    "name": "Sprite_Object_Gen",
+    "components": [
+      {
+        "type": "jade.Transform",
+        "properties": {
+          "position": {
+            "x": 5.625,
+            "y": 0.125
+          },
+          "scale": {
+            "x": 0.25,
+            "y": 0.25
+          },
+          "rotation": 0.0,
+          "zIndex": 0,
+          "uid": 20
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "width": 16.0,
+            "height": 16.0,
+            "texture": {
+              "filepath": "assets/images/spritesheets/tileset1.png",
+              "width": 96,
+              "height": 144
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 0.5555556
+              },
+              {
+                "x": 1.0,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.5555556
+              }
+            ]
+          },
+          "uid": 21
+        }
+      }
+    ],
+    "doSerialization": true,
+    "isDead": false
+  },
+  {
+    "uid": 529,
+    "name": "Sprite_Object_Gen",
+    "components": [
+      {
+        "type": "jade.Transform",
+        "properties": {
+          "position": {
+            "x": 5.625,
+            "y": 0.125
+          },
+          "scale": {
+            "x": 0.25,
+            "y": 0.25
+          },
+          "rotation": 0.0,
+          "zIndex": 0,
+          "uid": 20
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "width": 16.0,
+            "height": 16.0,
+            "texture": {
+              "filepath": "assets/images/spritesheets/tileset1.png",
+              "width": 96,
+              "height": 144
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 0.5555556
+              },
+              {
+                "x": 1.0,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.5555556
+              }
+            ]
+          },
+          "uid": 21
+        }
+      }
+    ],
+    "doSerialization": true,
+    "isDead": false
+  },
+  {
+    "uid": 530,
+    "name": "Sprite_Object_Gen",
+    "components": [
+      {
+        "type": "jade.Transform",
+        "properties": {
+          "position": {
+            "x": 5.625,
+            "y": 0.125
+          },
+          "scale": {
+            "x": 0.25,
+            "y": 0.25
+          },
+          "rotation": 0.0,
+          "zIndex": 0,
+          "uid": 20
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "width": 16.0,
+            "height": 16.0,
+            "texture": {
+              "filepath": "assets/images/spritesheets/tileset1.png",
+              "width": 96,
+              "height": 144
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 0.5555556
+              },
+              {
+                "x": 1.0,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.5555556
+              }
+            ]
+          },
+          "uid": 21
+        }
+      }
+    ],
+    "doSerialization": true,
+    "isDead": false
+  },
+  {
+    "uid": 531,
+    "name": "Sprite_Object_Gen",
+    "components": [
+      {
+        "type": "jade.Transform",
+        "properties": {
+          "position": {
+            "x": 5.625,
+            "y": 0.125
+          },
+          "scale": {
+            "x": 0.25,
+            "y": 0.25
+          },
+          "rotation": 0.0,
+          "zIndex": 0,
+          "uid": 20
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "width": 16.0,
+            "height": 16.0,
+            "texture": {
+              "filepath": "assets/images/spritesheets/tileset1.png",
+              "width": 96,
+              "height": 144
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 0.5555556
+              },
+              {
+                "x": 1.0,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.5555556
+              }
+            ]
+          },
+          "uid": 21
+        }
+      }
+    ],
+    "doSerialization": true,
+    "isDead": false
+  },
+  {
+    "uid": 532,
+    "name": "Sprite_Object_Gen",
+    "components": [
+      {
+        "type": "jade.Transform",
+        "properties": {
+          "position": {
+            "x": 5.875,
+            "y": 0.125
+          },
+          "scale": {
+            "x": 0.25,
+            "y": 0.25
+          },
+          "rotation": 0.0,
+          "zIndex": 0,
+          "uid": 20
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "width": 16.0,
+            "height": 16.0,
+            "texture": {
+              "filepath": "assets/images/spritesheets/tileset1.png",
+              "width": 96,
+              "height": 144
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 0.5555556
+              },
+              {
+                "x": 1.0,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.5555556
+              }
+            ]
+          },
+          "uid": 21
+        }
+      }
+    ],
+    "doSerialization": true,
+    "isDead": false
+  },
+  {
+    "uid": 533,
+    "name": "Sprite_Object_Gen",
+    "components": [
+      {
+        "type": "jade.Transform",
+        "properties": {
+          "position": {
+            "x": 5.875,
+            "y": 0.125
+          },
+          "scale": {
+            "x": 0.25,
+            "y": 0.25
+          },
+          "rotation": 0.0,
+          "zIndex": 0,
+          "uid": 20
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "width": 16.0,
+            "height": 16.0,
+            "texture": {
+              "filepath": "assets/images/spritesheets/tileset1.png",
+              "width": 96,
+              "height": 144
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 0.5555556
+              },
+              {
+                "x": 1.0,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.5555556
+              }
+            ]
+          },
+          "uid": 21
+        }
+      }
+    ],
+    "doSerialization": true,
+    "isDead": false
+  },
+  {
+    "uid": 534,
+    "name": "Sprite_Object_Gen",
+    "components": [
+      {
+        "type": "jade.Transform",
+        "properties": {
+          "position": {
+            "x": 5.875,
+            "y": 0.125
+          },
+          "scale": {
+            "x": 0.25,
+            "y": 0.25
+          },
+          "rotation": 0.0,
+          "zIndex": 0,
+          "uid": 20
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "width": 16.0,
+            "height": 16.0,
+            "texture": {
+              "filepath": "assets/images/spritesheets/tileset1.png",
+              "width": 96,
+              "height": 144
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 0.5555556
+              },
+              {
+                "x": 1.0,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.5555556
+              }
+            ]
+          },
+          "uid": 21
+        }
+      }
+    ],
+    "doSerialization": true,
+    "isDead": false
+  },
+  {
+    "uid": 535,
+    "name": "Sprite_Object_Gen",
+    "components": [
+      {
+        "type": "jade.Transform",
+        "properties": {
+          "position": {
+            "x": 5.875,
+            "y": 0.125
+          },
+          "scale": {
+            "x": 0.25,
+            "y": 0.25
+          },
+          "rotation": 0.0,
+          "zIndex": 0,
+          "uid": 20
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "width": 16.0,
+            "height": 16.0,
+            "texture": {
+              "filepath": "assets/images/spritesheets/tileset1.png",
+              "width": 96,
+              "height": 144
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 0.5555556
+              },
+              {
+                "x": 1.0,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.5555556
+              }
+            ]
+          },
+          "uid": 21
+        }
+      }
+    ],
+    "doSerialization": true,
+    "isDead": false
+  },
+  {
+    "uid": 536,
+    "name": "Sprite_Object_Gen",
+    "components": [
+      {
+        "type": "jade.Transform",
+        "properties": {
+          "position": {
+            "x": 5.875,
+            "y": 0.125
+          },
+          "scale": {
+            "x": 0.25,
+            "y": 0.25
+          },
+          "rotation": 0.0,
+          "zIndex": 0,
+          "uid": 20
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "width": 16.0,
+            "height": 16.0,
+            "texture": {
+              "filepath": "assets/images/spritesheets/tileset1.png",
+              "width": 96,
+              "height": 144
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 0.5555556
+              },
+              {
+                "x": 1.0,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.5555556
+              }
+            ]
+          },
+          "uid": 21
+        }
+      }
+    ],
+    "doSerialization": true,
+    "isDead": false
+  },
+  {
+    "uid": 537,
+    "name": "Sprite_Object_Gen",
+    "components": [
+      {
+        "type": "jade.Transform",
+        "properties": {
+          "position": {
+            "x": 5.875,
+            "y": 0.125
+          },
+          "scale": {
+            "x": 0.25,
+            "y": 0.25
+          },
+          "rotation": 0.0,
+          "zIndex": 0,
+          "uid": 20
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "width": 16.0,
+            "height": 16.0,
+            "texture": {
+              "filepath": "assets/images/spritesheets/tileset1.png",
+              "width": 96,
+              "height": 144
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 0.5555556
+              },
+              {
+                "x": 1.0,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.5555556
+              }
+            ]
+          },
+          "uid": 21
+        }
+      }
+    ],
+    "doSerialization": true,
+    "isDead": false
+  },
+  {
+    "uid": 538,
+    "name": "Sprite_Object_Gen",
+    "components": [
+      {
+        "type": "jade.Transform",
+        "properties": {
+          "position": {
+            "x": 5.875,
+            "y": 0.125
+          },
+          "scale": {
+            "x": 0.25,
+            "y": 0.25
+          },
+          "rotation": 0.0,
+          "zIndex": 0,
+          "uid": 20
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "width": 16.0,
+            "height": 16.0,
+            "texture": {
+              "filepath": "assets/images/spritesheets/tileset1.png",
+              "width": 96,
+              "height": 144
+            },
+            "texCoords": [
+              {
+                "x": 1.0,
+                "y": 0.5555556
+              },
+              {
+                "x": 1.0,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.44444445
+              },
+              {
+                "x": 0.8333333,
+                "y": 0.5555556
+              }
+            ]
+          },
+          "uid": 21
+        }
+      }
+    ],
+    "doSerialization": true,
+    "isDead": false
+  },
+  {
+    "uid": 539,
+    "name": "Sprite_Object_Gen",
+    "components": [
+      {
+        "type": "jade.Transform",
+        "properties": {
+          "position": {
+            "x": 0.375,
+            "y": 0.625
+          },
+          "scale": {
+            "x": 0.25,
+            "y": 0.25
+          },
+          "rotation": 0.0,
+          "zIndex": 0,
+          "uid": 23
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "width": 17.0,
+            "height": 32.0,
+            "texture": {
+              "filepath": "assets/images/fum.png",
+              "width": 96,
+              "height": 32
+            },
+            "texCoords": [
+              {
+                "x": 0.53125,
+                "y": 1.0
+              },
+              {
+                "x": 0.53125,
+                "y": 0.0
+              },
+              {
+                "x": 0.35416666,
+                "y": 0.0
+              },
+              {
+                "x": 0.35416666,
+                "y": 1.0
+              }
+            ]
+          },
+          "uid": 24
+        }
+      },
+      {
+        "type": "components.StateMachine",
+        "properties": {
+          "stateTransfers": {},
+          "states": [
+            {
+              "title": "Run",
+              "animationFrames": [
+                {
+                  "sprite": {
+                    "width": 17.0,
+                    "height": 32.0,
+                    "texture": {
+                      "filepath": "assets/images/fum.png",
+                      "width": 96,
+                      "height": 32
+                    },
+                    "texCoords": [
+                      {
+                        "x": 0.17708333,
+                        "y": 1.0
+                      },
+                      {
+                        "x": 0.17708333,
+                        "y": 0.0
+                      },
+                      {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      {
+                        "x": 0.0,
+                        "y": 1.0
+                      }
+                    ]
+                  },
+                  "frameTime": 0.23
+                },
+                {
+                  "sprite": {
+                    "width": 17.0,
+                    "height": 32.0,
+                    "texture": {
+                      "filepath": "assets/images/fum.png",
+                      "width": 96,
+                      "height": 32
+                    },
+                    "texCoords": [
+                      {
+                        "x": 0.53125,
+                        "y": 1.0
+                      },
+                      {
+                        "x": 0.53125,
+                        "y": 0.0
+                      },
+                      {
+                        "x": 0.35416666,
+                        "y": 0.0
+                      },
+                      {
+                        "x": 0.35416666,
+                        "y": 1.0
+                      }
+                    ]
+                  },
+                  "frameTime": 0.23
+                },
+                {
+                  "sprite": {
+                    "width": 17.0,
+                    "height": 32.0,
+                    "texture": {
+                      "filepath": "assets/images/fum.png",
+                      "width": 96,
+                      "height": 32
+                    },
+                    "texCoords": [
+                      {
+                        "x": 0.7083333,
+                        "y": 1.0
+                      },
+                      {
+                        "x": 0.7083333,
+                        "y": 0.0
+                      },
+                      {
+                        "x": 0.53125,
+                        "y": 0.0
+                      },
+                      {
+                        "x": 0.53125,
+                        "y": 1.0
+                      }
+                    ]
+                  },
+                  "frameTime": 0.23
+                },
+                {
+                  "sprite": {
+                    "width": 17.0,
+                    "height": 32.0,
+                    "texture": {
+                      "filepath": "assets/images/fum.png",
+                      "width": 96,
+                      "height": 32
+                    },
+                    "texCoords": [
+                      {
+                        "x": 0.53125,
+                        "y": 1.0
+                      },
+                      {
+                        "x": 0.53125,
+                        "y": 0.0
+                      },
+                      {
+                        "x": 0.35416666,
+                        "y": 0.0
+                      },
+                      {
+                        "x": 0.35416666,
+                        "y": 1.0
+                      }
+                    ]
+                  },
+                  "frameTime": 0.23
+                }
+              ],
+              "time": 0.14791535,
+              "doesLoop": true
+            }
+          ],
+          "defaultStateTitle": "Run",
+          "uid": 25
+        }
+      }
+    ],
+    "doSerialization": true,
+    "isDead": false
+  },
+  {
+    "uid": 540,
+    "name": "Sprite_Object_Gen",
+    "components": [
+      {
+        "type": "jade.Transform",
+        "properties": {
+          "position": {
+            "x": 0.375,
+            "y": 0.625
+          },
+          "scale": {
+            "x": 0.25,
+            "y": 0.25
+          },
+          "rotation": 0.0,
+          "zIndex": 0,
+          "uid": 23
+        }
+      },
+      {
+        "type": "components.SpriteRenderer",
+        "properties": {
+          "color": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0,
+            "w": 1.0
+          },
+          "sprite": {
+            "width": 17.0,
+            "height": 32.0,
+            "texture": {
+              "filepath": "assets/images/fum.png",
+              "width": 96,
+              "height": 32
+            },
+            "texCoords": [
+              {
+                "x": 0.53125,
+                "y": 1.0
+              },
+              {
+                "x": 0.53125,
+                "y": 0.0
+              },
+              {
+                "x": 0.35416666,
+                "y": 0.0
+              },
+              {
+                "x": 0.35416666,
+                "y": 1.0
+              }
+            ]
+          },
+          "uid": 24
+        }
+      },
+      {
+        "type": "components.StateMachine",
+        "properties": {
+          "stateTransfers": {},
+          "states": [
+            {
+              "title": "Run",
+              "animationFrames": [
+                {
+                  "sprite": {
+                    "width": 17.0,
+                    "height": 32.0,
+                    "texture": {
+                      "filepath": "assets/images/fum.png",
+                      "width": 96,
+                      "height": 32
+                    },
+                    "texCoords": [
+                      {
+                        "x": 0.17708333,
+                        "y": 1.0
+                      },
+                      {
+                        "x": 0.17708333,
+                        "y": 0.0
+                      },
+                      {
+                        "x": 0.0,
+                        "y": 0.0
+                      },
+                      {
+                        "x": 0.0,
+                        "y": 1.0
+                      }
+                    ]
+                  },
+                  "frameTime": 0.23
+                },
+                {
+                  "sprite": {
+                    "width": 17.0,
+                    "height": 32.0,
+                    "texture": {
+                      "filepath": "assets/images/fum.png",
+                      "width": 96,
+                      "height": 32
+                    },
+                    "texCoords": [
+                      {
+                        "x": 0.53125,
+                        "y": 1.0
+                      },
+                      {
+                        "x": 0.53125,
+                        "y": 0.0
+                      },
+                      {
+                        "x": 0.35416666,
+                        "y": 0.0
+                      },
+                      {
+                        "x": 0.35416666,
+                        "y": 1.0
+                      }
+                    ]
+                  },
+                  "frameTime": 0.23
+                },
+                {
+                  "sprite": {
+                    "width": 17.0,
+                    "height": 32.0,
+                    "texture": {
+                      "filepath": "assets/images/fum.png",
+                      "width": 96,
+                      "height": 32
+                    },
+                    "texCoords": [
+                      {
+                        "x": 0.7083333,
+                        "y": 1.0
+                      },
+                      {
+                        "x": 0.7083333,
+                        "y": 0.0
+                      },
+                      {
+                        "x": 0.53125,
+                        "y": 0.0
+                      },
+                      {
+                        "x": 0.53125,
+                        "y": 1.0
+                      }
+                    ]
+                  },
+                  "frameTime": 0.23
+                },
+                {
+                  "sprite": {
+                    "width": 17.0,
+                    "height": 32.0,
+                    "texture": {
+                      "filepath": "assets/images/fum.png",
+                      "width": 96,
+                      "height": 32
+                    },
+                    "texCoords": [
+                      {
+                        "x": 0.53125,
+                        "y": 1.0
+                      },
+                      {
+                        "x": 0.53125,
+                        "y": 0.0
+                      },
+                      {
+                        "x": 0.35416666,
+                        "y": 0.0
+                      },
+                      {
+                        "x": 0.35416666,
+                        "y": 1.0
+                      }
+                    ]
+                  },
+                  "frameTime": 0.23
+                }
+              ],
+              "time": 0.14791535,
+              "doesLoop": true
+            }
+          ],
+          "defaultStateTitle": "Run",
+          "uid": 25
+        }
+      }
+    ],
+    "doSerialization": true,
+    "isDead": false
+  }
+]
