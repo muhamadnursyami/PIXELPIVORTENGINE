@@ -54,8 +54,6 @@ public class StateMachine extends Component {
                 return;
             }
         }
-
-        System.out.println("Unable to find default state '" + animationTitle + "'");
     }
 
     public void addState(String from, String to, String onTrigger) {
