@@ -13,7 +13,7 @@ public class SceneHierarchyWindow {
     private static String payloadDragDropType = "SceneHierarchy";
 
     public void imgui() {
-        ImGui.begin("Scene Hierarchy");
+        ImGui.begin("Scene Game Object");
 
         List<GameObject> gameObjects = Window.getScene().getGameObjects();
         int index = 0;

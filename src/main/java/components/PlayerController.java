@@ -12,6 +12,7 @@ import physics2d.components.PillboxCollider;
 import physics2d.components.Rigidbody2D;
 import physics2d.enums.BodyType;
 import scenes.LevelEditorSceneInitializer;
+import scenes.LevelSceneInitializer;
 import renderer.DebugDraw;
 import util.AssetPool;
 import static org.lwjgl.glfw.GLFW.*;
@@ -50,6 +51,9 @@ public class PlayerController extends Component {
     private transient boolean deadGoingUp = true;
     private transient float blinkTime = 0.0f;
     private transient SpriteRenderer spr;
+    private transient boolean playWinAnimation = false;
+    private transient float timeToCastle = 4.5f;
+    private transient float walkTime = 2.2f;
 
     @Override
     public void start() {
@@ -61,6 +65,32 @@ public class PlayerController extends Component {
 
     @Override
     public void update(float dt) {
+        if (playWinAnimation) {
+            checkOnGround();
+            if (!onGround) {
+                gameObject.transform.scale.x = -0.25f;
+                gameObject.transform.position.y -= dt;
+                stateMachine.trigger("stopRunning");
+                stateMachine.trigger("stopJumping");
+            } else {
+                if (this.walkTime > 0) {
+                    gameObject.transform.scale.x = 0.25f;
+                    gameObject.transform.position.x += dt;
+                    stateMachine.trigger("startRunning");
+                }
+                if (!AssetPool.getSound("assets/sounds/stage_clear.ogg").isPlaying()) {
+                    AssetPool.getSound("assets/sounds/stage_clear.ogg").play();
+                }
+                timeToCastle -= dt;
+                walkTime -= dt;
+
+                if (timeToCastle <= 0) {
+                    Window.changeScene(new LevelEditorSceneInitializer());
+                }
+            }
+
+            return;
+        }
         if (isDead) {
             if (this.gameObject.transform.position.y < deadMaxHeight && deadGoingUp) {
                 this.gameObject.transform.position.y += dt * walkSpeed / 2.0f;
@@ -75,6 +105,7 @@ public class PlayerController extends Component {
                 this.rb.setAngularVelocity(0);
             } else if (!deadGoingUp && gameObject.transform.position.y <= deadMinHeight) {
                 Window.changeScene(new LevelEditorSceneInitializer());
+                Window.changeScene(new LevelSceneInitializer());
             }
             return;
         }
@@ -181,7 +212,10 @@ public class PlayerController extends Component {
 
     }
 
-
+    public void setPosition(Vector2f newPos) {
+        this.gameObject.transform.position.set(newPos);
+        this.rb.setPosition(newPos);
+    }
     public void powerup() {
         if (playerState == PlayerState.Small) {
             playerState = PlayerState.Big;
@@ -199,6 +233,20 @@ public class PlayerController extends Component {
         }
 
         stateMachine.trigger("powerup");
+    }
+
+
+    public void playWinAnimation(GameObject flagpole) {
+        if (!playWinAnimation) {
+            playWinAnimation = true;
+            velocity.set(0.0f, 0.0f);
+            acceleration.set(0.0f, 0.0f);
+            rb.setVelocity(velocity);
+            rb.setIsSensor();
+            rb.setBodyType(BodyType.Static);
+            gameObject.transform.position.x = flagpole.transform.position.x;
+            AssetPool.getSound("assets/sounds/flagpole.ogg").play();
+        }
     }
     @Override
     public void beginCollision(GameObject collidingObject, Contact contact, Vector2f contactNormal) {
@@ -223,11 +271,13 @@ public class PlayerController extends Component {
     }
 
     public boolean isHurtInvincible() {
-        return this.hurtInvincibilityTimeLeft > 0;
+
+        return this.hurtInvincibilityTimeLeft > 0 || playWinAnimation;
     }
 
     public boolean isInvincible() {
-        return this.playerState == PlayerState.Invincible || this.hurtInvincibilityTimeLeft > 0;
+        return this.playerState == PlayerState.Invincible ||
+                this.hurtInvincibilityTimeLeft > 0 || playWinAnimation;
     }
 
     public void die() {
@@ -260,6 +310,10 @@ public class PlayerController extends Component {
             hurtInvincibilityTimeLeft = hurtInvincibilityTime;
             AssetPool.getSound("assets/sounds/pipe.ogg").play();
         }
+    }
+
+    public boolean hasWon() {
+        return false;
     }
     public boolean isSmall() {
         return this.playerState == PlayerState.Small;

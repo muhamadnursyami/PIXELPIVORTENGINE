@@ -70,7 +70,15 @@ public  class Scene {
             go.destroy();
         }
     }
+    public <T extends Component> GameObject getGameObjectWith(Class<T> clazz) {
+        for (GameObject go : gameObjects) {
+            if (go.getComponent(clazz) != null) {
+                return go;
+            }
+        }
 
+        return null;
+    }
     public List<GameObject> getGameObjects() {
         return this.gameObjects;
     }
@@ -104,7 +112,12 @@ public  class Scene {
         }
         pendingObjects.clear();
     }
-
+    public GameObject getGameObject(String gameObjectName) {
+        Optional<GameObject> result = this.gameObjects.stream()
+                .filter(gameObject -> gameObject.name.equals(gameObjectName))
+                .findFirst();
+        return result.orElse(null);
+    }
     public void update(float dt) {
         this.camera.adjustProjection();
         this.physics2D.update(dt);
