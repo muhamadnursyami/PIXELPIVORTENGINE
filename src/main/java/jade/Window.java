@@ -44,7 +44,7 @@ public class Window  implements Observer{
     private Window(){
         this.width = 1920;
         this.height= 1080;
-        this.title = "Jade";
+        this.title = "PIXELPIVORT";
         EventSystem.addObserver(this);
     }
 

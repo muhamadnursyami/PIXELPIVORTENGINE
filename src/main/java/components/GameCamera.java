@@ -13,7 +13,7 @@ public class GameCamera extends Component {
     private transient float cameraBuffer = 1.5f;
     private transient float playerBuffer = 0.25f;
 
-    private Vector4f skyColor = new Vector4f(92.0f / 255.0f, 148.0f / 255.0f, 252.0f / 255.0f, 1.0f);
+//    private Vector4f skyColor = new Vector4f(92.0f / 255.0f, 148.0f / 255.0f, 252.0f / 255.0f, 1.0f);
     private Vector4f undergroundColor = new Vector4f(0, 0, 0, 1);
 
     public GameCamera(Camera gameCamera) {
@@ -23,7 +23,7 @@ public class GameCamera extends Component {
     @Override
     public void start() {
         this.player = Window.getScene().getGameObjectWith(PlayerController.class);
-        this.gameCamera.clearColor.set(skyColor);
+//        this.gameCamera.clearColor.set(skyColor);
         this.undergroundYLevel = this.gameCamera.position.y -
                 this.gameCamera.getProjectionSize().y - this.cameraBuffer;
     }
@@ -39,7 +39,7 @@ public class GameCamera extends Component {
                 this.gameCamera.clearColor.set(undergroundColor);
             } else if (player.transform.position.y >= 0.0f) {
                 this.gameCamera.position.y = 0.0f;
-                this.gameCamera.clearColor.set(skyColor);
+//                this.gameCamera.clearColor.set(skyColor);
             }
         }
     }

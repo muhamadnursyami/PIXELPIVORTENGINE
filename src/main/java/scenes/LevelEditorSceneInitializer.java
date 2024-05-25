@@ -109,13 +109,13 @@ public class LevelEditorSceneInitializer extends SceneInitializer {
 
     @Override
     public void imgui() {
-        ImGui.begin("Level Editor Stuff");
+        ImGui.begin("Editor");
         levelEditorStuff.imgui();
         ImGui.end();
 
-        ImGui.begin("Test window");
+        ImGui.begin("Assets");
 
-        if (ImGui.beginTabBar("WindowTabBar")) {
+        if (ImGui.beginTabBar("AssetsBar")) {
             if (ImGui.beginTabItem("Solid Blocks")) {
 
                 ImVec2 windowPos = new ImVec2();
