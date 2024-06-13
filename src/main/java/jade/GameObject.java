@@ -1,28 +1,31 @@
 package jade;
 
+import components.Component;
+import imgui.ImGui;
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
 import java.util.ArrayList;
 import java.util.List;
-
+import components.ComponentDeserializer;
+import components.SpriteRenderer;
+import util.AssetPool;
 public class GameObject {
+    private static int ID_COUNTER = 0;
+    private int uid = -1;
 
-    private String name;
+    public String name;
     private List<Component> components;
-    public Transform transform;
-    // for z-index
-    private int zIndex;
+    public transient Transform transform;
+    private boolean doSerialization = true;
+    private boolean isDead = false;
 
     public GameObject(String name) {
         this.name = name;
         this.components = new ArrayList<>();
-        this.transform = new Transform();
-        this.zIndex = 0;
+
+        this.uid = ID_COUNTER++;
     }
-    public GameObject(String name, Transform transform, int zIndex) {
-        this.name = name;
-        this.zIndex = zIndex;
-        this.components = new ArrayList<>();
-        this.transform = transform;
-    }
+
     public <T extends Component> T getComponent(Class<T> componentClass) {
         for (Component c : components) {
             if (componentClass.isAssignableFrom(c.getClass())) {
@@ -49,6 +52,7 @@ public class GameObject {
     }
 
     public void addComponent(Component c) {
+        c.generateId();
         this.components.add(c);
         c.gameObject = this;
     }
@@ -58,23 +62,81 @@ public class GameObject {
             components.get(i).update(dt);
         }
     }
-
+    public void editorUpdate(float dt) {
+        for (int i=0; i < components.size(); i++) {
+            components.get(i).editorUpdate(dt);
+        }
+    }
     public void start() {
         for (int i=0; i < components.size(); i++) {
             components.get(i).start();
         }
     }
 
-    public void imgui(){
+    public void imgui() {
+        for (Component c : components) {
+            if (ImGui.collapsingHeader(c.getClass().getSimpleName()))
+                c.imgui();
+        }
+    }
+    public void destroy() {
+        this.isDead = true;
+        for (int i=0; i < components.size(); i++) {
+            components.get(i).destroy();
+        }
+    }
 
-        for (Component c : components){
-            c.imgui();
+    public GameObject copy() {
+        Gson gson = new GsonBuilder()
+                .registerTypeAdapter(Component.class, new ComponentDeserializer())
+                .registerTypeAdapter(GameObject.class, new GameObjectDeserializer())
+                .enableComplexMapKeySerialization()
+                .create();
+        String objAsJson = gson.toJson(this);
+        GameObject obj = gson.fromJson(objAsJson, GameObject.class);
+        obj.generateUid();
+        for (Component c : obj.getAllComponents()) {
+            c.generateId();
         }
 
+        SpriteRenderer sprite = obj.getComponent(SpriteRenderer.class);
+        if (sprite != null && sprite.getTexture() != null) {
+            sprite.setTexture(AssetPool.getTexture(sprite.getTexture().getFilepath()));
+        }
+
+        // TODO: Create better copy function
+        return obj;
+    }
+    public boolean isDead() {
+        return this.isDead;
     }
 
-    public int zIndex(){
-        return this.zIndex;
+
+    public static void init(int maxId) {
+        ID_COUNTER = maxId;
     }
 
+    public int getUid() {
+        return this.uid;
+    }
+
+    public List<Component> getAllComponents() {
+        return this.components;
+    }
+
+
+
+
+
+    public void setNoSerialize() {
+        this.doSerialization = false;
+    }
+
+    public boolean doSerialization() {
+        return this.doSerialization;
+    }
+
+    public void generateUid() {
+        this.uid = ID_COUNTER++;
+    }
 }

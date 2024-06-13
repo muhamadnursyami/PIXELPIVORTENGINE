@@ -9,11 +9,15 @@ sourceCompatibility = '21'
 // sourceCompatibility = '18'
 
 repositories {
+    flatDir {
+        dirs 'libs'
+    }
      jcenter()
     mavenCentral()
 }
 
 dependencies {
+    testImplementation 'junit:junit:4.12'
     testImplementation platform('org.junit:junit-bom:5.9.1')
     testImplementation 'org.junit.jupiter:junit-jupiter'
 }
@@ -25,12 +29,19 @@ project.ext.lwjglVersion = "3.3.3"
 project.ext.jomlVersion = "1.10.5"
 project.ext.lwjglNatives = "natives-windows"
 //project.ext.lwjglNatives = "natives-linux"
-project.ext.imguiVersion = '1.76-0.9'
+project.ext.imguiVersion = '1.81.0'
 
 
 dependencies {
+
+    // Box2D
+    implementation name: 'jbox2d-library'
+    // JUnit
+    testImplementation('junit:junit:4.13')
     // imgui files
-    implementation fileTree('libs') { include '*.jar' }
+
+    implementation "io.github.spair:imgui-java-app:$imguiVersion"
+//    implementation fileTree('libs') { include '*.jar' }
 
     // GSON
     implementation 'com.google.code.gson:gson:2.10.1'
